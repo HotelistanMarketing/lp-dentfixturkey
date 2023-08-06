@@ -1,0 +1,55 @@
+.why {
+  padding: 35px 0;
+  background-color: #f7f7f7;
+
+  > .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+  }
+
+  .content ul > li {
+    > p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+
+.why-desktop() {
+  .why {
+    padding: 98px 0;
+
+    > .container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      column-gap: 80px;
+      text-align: start;
+
+      .section-title {
+        text-align: start;
+      }
+    }
+
+    .content ul > li {
+      list-style: disc inside url('/assets/ico-tik-circle.svg');
+
+      > p {
+        //display: inline;
+        //padding-left: 5px;
+        padding-left: calc(24px + 5px);
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

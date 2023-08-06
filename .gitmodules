@@ -1,0 +1,3 @@
+[submodule "scripts/shared-scripts"]
+	path = scripts/shared
+	url = https://github.com/HotelistanMarketing/shared-scripts

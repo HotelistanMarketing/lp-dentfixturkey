@@ -1,0 +1,58 @@
+@import "../../styles/generic";
+@import "../../styles/header";
+@import "../../styles/hero";
+@import "../../styles/form";
+@import "../../styles/why";
+@import "../../styles/whatsapp-fab";
+
+// TABLET AND DESKTOP STYLES
+
+@media @media-mobile {
+  .hero-mobile();
+}
+
+@media @media-tablet {
+  .button-tablet();
+  .header-tablet();
+  .form-tablet();
+  //.review-tablet-and-desktop();
+  //.services-tablet();
+  //.testimonials-tablet();
+  //.hospital-tablet();
+  //.package-tablet();
+}
+
+@media @media-l-tablet {
+  .header-l-tablet();
+}
+
+@media @media-desktop {
+  .button-desktop();
+  .header-desktop();
+  .hero-desktop();
+  .form-desktop();
+  .why-desktop();
+  //.cta-desktop();
+  //.services-desktop();
+  //.testimonials-desktop();
+  //.about-desktop();
+  //.hospital-desktop();
+  //.package-desktop();
+  //.faq-desktop();
+  //.footer-desktop();
+}
+
+@media @media-large {
+  .hero-large();
+}
+
+// ACCESSIBILITY
+
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    // Very short durations means JavaScript that relies on events still works
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

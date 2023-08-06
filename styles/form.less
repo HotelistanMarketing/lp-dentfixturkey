@@ -1,0 +1,75 @@
+.form-box {
+  padding: 50px 10px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+
+  .section-title {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .button {
+    min-width: 200px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 15px;
+
+  input:not(.button) {
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #1A1A1A;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+
+    &::placeholder {
+      color: #ADADAD;
+    }
+  }
+
+  .button {
+    max-width: none;
+  }
+
+  label, .hidden {
+    display: none;
+  }
+
+  .iti__selected-flag {
+    padding-top: 0 !important;
+    height: 100% !important;
+  }
+
+  input#Mobile {
+    padding-left: 52px;
+  }
+}
+
+.form-tablet() {
+  form {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.form-desktop() {
+  .form-box {
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 100%;
+    min-width: 400px;
+    max-width: 474px;
+  }
+}

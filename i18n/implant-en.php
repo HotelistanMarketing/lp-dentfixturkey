@@ -1,6 +1,6 @@
 <?php
 
-$TR = array(
+define('TR', array(
     "page_title" => "Turkey Dental Clinic in Istanbul | DentfixTurkey",
     "page_keywords" => "dental clinic, turkey, veneers, crowns, hollywood smile, restorative dentistry",
     "page_description" => "Our expert team of dentists offers a wide range of services for a beautiful and healthy smile. Schedule your appointment today and experience exceptional dental care at Turkey Dental Teeth Clinic - DentfixTurkey.",
@@ -19,7 +19,7 @@ $TR = array(
     ),
 
     // HERO
-    "hero_title" => "Dental Clinic in <br><span>Turkey, Istanbul</span>",
+    "hero_title" => "Dental Clinic <br><span>in Turkey, Istanbul</span>",
     "hero_subtitle" => "Enhance Your Smile<br>with Dentfix Turkey’s Affordable Services",
     "hero_button" => "Get the Best Dental Solution",
     "hero_org_title" => "Our Reliable Brands",
@@ -116,4 +116,4 @@ $TR = array(
     // FOOTER
     "footer_social_title" => "Our Social Media",
     "footer_copyright" => sprintf("©Allrights Dentfix %s", date('Y')),
-);
+));

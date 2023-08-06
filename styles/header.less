@@ -1,0 +1,51 @@
+header {
+  padding: 20px 0;
+  position: relative;
+  top: 0;
+
+  > .container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}
+header nav {  // TODO make a dropdown menu!?
+  display: none;
+}
+
+.header-tablet() {
+  header > .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.header-l-tablet() {
+  header nav {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    column-gap: 25px;
+
+    > a {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 500;
+      color: #21234A !important;
+    }
+  }
+}
+
+.header-desktop() {
+  header {
+    padding: 35px 0;
+
+    > .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
