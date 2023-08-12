@@ -1,0 +1,28 @@
+#influencers {
+  padding: 30px 0;
+
+  .videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+    }
+  }
+}
+
+
+.influencers-desktop() {
+  #influencers {
+    padding: 75px 0;
+
+    .videos {
+      column-gap: 10px;
+      flex-direction: row;
+      justify-content: stretch;
+    }
+  }
+}
