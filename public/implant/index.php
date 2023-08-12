@@ -15,6 +15,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 <main>
     <?php include get_template('hero.php') ?>
     <?php include get_template('why.php') ?>
+    <?php include get_template('faq.php') ?>
 </main>
 <?php include get_template('footer.php') ?>
 <?php include get_template('whatsapp-fab.php') ?>
