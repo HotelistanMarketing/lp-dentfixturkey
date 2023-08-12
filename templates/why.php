@@ -1,4 +1,4 @@
-<section class="why">
+<section id="why" class="why">
     <div class="container">
         <div id="contact" class="form-box">
             <h2 class="section-title"><?= TR['form_title'] ?></h2>
