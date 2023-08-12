@@ -9,3 +9,4 @@ const FORM_THANK_YOU_PAGE = 'https://dentfixturkey.com/thank-you';
 const FACEBOOK_LINK = 'https://www.facebook.com/dentfix.turkey/';
 const INSTAGRAM_LINK = 'https://www.instagram.com/dentfix.turkey/';
 const TIKTOK_LINK = 'https://www.tiktok.com/@dentfixturkey';
+const GTM_ID = 'GTM-5F8BD5F';

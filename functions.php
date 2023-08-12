@@ -62,7 +62,12 @@ function get_img_path(string $source): string
     return get_webp('/assets/' . VARIANT . '/' . $source);
 }
 
-function get_template(string $templateName): string
+function get_template(string $template): string
 {
-    return $_SERVER['DOCUMENT_ROOT'] . '/templates/' . $templateName;
+    return $_SERVER['DOCUMENT_ROOT'] . '/templates/' . $template;
+}
+
+function get_script(string $script): string
+{
+    return $_SERVER['DOCUMENT_ROOT'] . '/scripts/' . $script;
 }
