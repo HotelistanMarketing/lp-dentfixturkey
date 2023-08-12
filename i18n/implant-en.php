@@ -26,7 +26,7 @@ define('TR', array(
 
     // FORM
     "form_title" => "Reshape Your Beautiful Smile with Dentfix",
-    "form_description" => "Fill out the form, and let our experts quickly respond to any question marks in your mind.",
+    "form_description" => "Complete the form and allow our experts to promptly address any questions you may have.",
     "form_button" => "Hurry Up! Get A Free Quote",
     "form_name" => "Name & Surname",
     "form_mail" => "Mail",
