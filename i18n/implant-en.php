@@ -115,5 +115,5 @@ define('TR', array(
 
     // FOOTER
     "footer_social_title" => "Our Social Media",
-    "footer_copyright" => sprintf("©Allrights Dentfix %s", date('Y')),
+    "footer_copyright" => sprintf("All rights reserved © %s - Dentfix", date('Y')),
 ));

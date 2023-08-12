@@ -1,12 +1,5 @@
 <?php
 
-const EMAIL = 'info@dentfixturkey.com';
-const READABLE_PHONE_NUMBER = '+90 (546) 902 31 91';
-define('PHONE_NUMBER', trim_number(READABLE_PHONE_NUMBER));
-const WHATSAPP_NUMBER = PHONE_NUMBER;
-define('WHATSAPP_LINK', generate_wp_link(WHATSAPP_NUMBER));
-const FORM_THANK_YOU_PAGE = 'https://dentfixturkey.com/thank-you';
-
 $WEBP_SUPPORT = str_contains($_SERVER['HTTP_ACCEPT'], 'image/webp');
 
 function trim_number(string $readable_number): string
