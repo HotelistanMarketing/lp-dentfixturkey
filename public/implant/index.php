@@ -16,6 +16,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
     <?php include get_template('hero.php') ?>
     <?php include get_template('why.php') ?>
     <?php include get_template('cta.php') ?>
+    <?php include get_template('services.php') ?>
     <?php include get_template('cta.php') ?>
     <?php include get_template('influencers.php') ?>
     <?php include get_template('faq.php') ?>
