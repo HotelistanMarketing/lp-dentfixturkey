@@ -30,9 +30,9 @@ function get_webp(string $source): string
     return $source;
 }
 
-function get_img(string $source, string $alt = '', string $loading = 'lazy', bool $variant = false): void
+function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $variant = false): void
 {
-    $path = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $source;
+    $path = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;
     $img_size = getimagesize($_SERVER['DOCUMENT_ROOT'] . $path);
     ?>
     <img src="<?= get_webp($path) ?>"
@@ -44,14 +44,14 @@ function get_img(string $source, string $alt = '', string $loading = 'lazy', boo
 }
 
 // TODO implement 2x images for high res screens
-function get_desktop_pic(string $source, bool $variant = false): void
+function get_desktop_pic(string $src, bool $variant = false): void
 {
-    $source = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $source;
-    $img_info = getimagesize($_SERVER['DOCUMENT_ROOT'] .$source);
+    $src = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;
+    $img_info = getimagesize($_SERVER['DOCUMENT_ROOT'] .$src);
 
     ?>
     <source media="(min-width:992px)"
-            srcset="<?= get_webp($source) ?>"
+            srcset="<?= get_webp($src) ?>"
             width="<?= $img_info[0] ?>"
             height="<?= $img_info[1] ?>">
     <?php
