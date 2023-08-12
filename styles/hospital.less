@@ -1,0 +1,35 @@
+#hospital {
+  padding: 40px 0 20px;
+  .gallery {
+    display: grid;
+    gap: 20px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.hospital-l-tablet() {
+  #hospital {
+    .gallery {
+      grid-template-columns: repeat(3, auto);
+      gap: 10px;
+
+      img {
+        height: 100%;
+        border-radius: 10px;
+      }
+
+      picture:last-child {
+        grid-column: 2 / span 2;
+      }
+    }
+  }
+}
+
+.hospital-desktop() {
+  #hospital {
+    padding: 75px 0 40px;
+  }
+}
