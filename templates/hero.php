@@ -1,4 +1,4 @@
-<section id="hero" class="hero">
+<section id="hero">
     <?php include get_template('header.php') ?>
 
     <div class="container">

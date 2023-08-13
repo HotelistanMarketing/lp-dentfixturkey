@@ -1,4 +1,4 @@
-.hero {
+#hero {
   //height: 857px;
   background-size: cover;
 
@@ -48,17 +48,17 @@
 // MEDIA QUERIES
 
 .hero-mobile() {
-  .hero {
+  #hero {
     background: url("/assets/hero-mobile2x.jpg");
   }
 }
 
 .hero-desktop() {
-  .hero {
+  #hero {
     background: url("/assets/hero.jpg");
   }
 
-  .hero > .container {
+  #hero > .container {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
@@ -100,7 +100,7 @@
 }
 
 .hero-large() {
-  .hero {
+  #hero {
     background: url("/assets/hero@2x.jpg");
   }
 }
