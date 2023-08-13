@@ -11,7 +11,7 @@ define('TR', array(
     // HEADER
     "nav_menu" => array(
         "why" => "Why Choose",
-        "ba" => "Before & After",
+        "before-after" => "Before & After",
         "influencers" => "Influencers",
         "services" => "Services",
         "team" => "Our Team",

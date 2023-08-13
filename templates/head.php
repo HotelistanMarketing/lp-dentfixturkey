@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <?php // TODO add favicon: <link rel="icon" type="image/x-icon" href="/assets/ico-favicon.png"> ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <?php include get_script('/shared/gtm.php') ?>
 </head>
