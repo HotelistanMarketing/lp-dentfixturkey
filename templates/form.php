@@ -47,7 +47,7 @@
 </select>
 
 <input class="hidden" id="utm_source" name="utm_source" type="hidden" value="">
-<button id='formsubmit' class='formsubmit button red' title='Submit'>
+<button id='formsubmit' class='formsubmit button' title='Submit'>
     <?= TR['form_button'] ?>
 </button>
 

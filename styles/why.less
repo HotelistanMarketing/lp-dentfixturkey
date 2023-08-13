@@ -1,50 +1,70 @@
-.why {
-  padding: 35px 0;
-  background-color: #f7f7f7;
+@import "variables";
 
-  > .container {
+#why {
+  padding: 35px 0;
+
+  .container {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .content ul > li {
-    > p {
-      font-size: 18px;
-      line-height: 24px;
-    }
+  .form-box {
+    margin-left: @page-padding;
+    margin-right: @page-padding;
+  }
 
-    &:not(:last-child) {
-      margin-bottom: 35px;
+  section.why {
+    padding: 30px @page-padding;
+    background-color: #f7f7f7;
+
+    ul > li {
+      list-style: disc inside url('/assets/ico-tik-circle.svg');
+
+      > span {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 35px;
+      }
     }
   }
 }
 
-
 .why-desktop() {
-  .why {
+  #why {
     padding: 98px 0;
 
-    > .container {
+    .container {
       display: flex;
       flex-direction: row-reverse;
+      align-items: center;
       justify-content: space-between;
       column-gap: 80px;
       text-align: start;
-
-      .section-title {
-        text-align: start;
-      }
     }
 
-    .content ul > li {
-      list-style: disc inside url('/assets/ico-tik-circle.svg');
+    .section-title {
+      text-align: start;
+    }
 
-      > p {
-        //display: inline;
-        //padding-left: 5px;
-        padding-left: calc(24px + 5px);
+    section.why {
+      flex-basis: 40%;
+      background-color: unset;
+    }
+
+    section.why ul > li {
+      list-style-position: outside !important;
+      margin-left: calc(24px + 5px);
+
+      > span {
+        display: block;
+        padding-left: 5px !important;
       }
 
       &:not(:last-child) {

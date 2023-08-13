@@ -1,4 +1,4 @@
-<section id="why" class="why">
+<section id="why">
     <div class="container">
         <div id="contact" class="form-box">
             <h2 class="section-title"><?= TR['form_title'] ?></h2>
@@ -8,11 +8,11 @@
                   method='POST'
                   onSubmit='javascript:document.charset="UTF-8"; return formFieldCheck()'
                   accept-charset='UTF-8'>
-                <?= include get_template('form.php') ?>
+                <?php include get_template('form.php') ?>
             </form>
         </div>
 
-        <section class="content">
+        <section class="why">
             <h2 class="section-title"><?= TR['why_title'] ?></h2>
             <ul>
                 <?php foreach (TR['why'] as $item): ?>
