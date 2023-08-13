@@ -7,7 +7,7 @@ function trim_number(string $readable_number): string
     return preg_replace('/[\s()]/', '', $readable_number);
 }
 
-function generate_wp_link(string $number, string $keyword = ''): string
+function get_wp_link(string $number, string $keyword = ''): string
 {
     $text = urlencode(sprintf(TR["whatsapp_message"], $keyword ?: TR['whatsapp_main_keyword']));
     return sprintf('https://api.whatsapp.com/send?phone=%s&text=%s', $number, $text);
