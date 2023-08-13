@@ -57,7 +57,7 @@ function get_desktop_pic(string $src, bool $variant = false): void
     <?php
 }
 
-function get_img_path(string $source): string
+function get_img_src(string $source): string
 {
     return get_webp('/assets/' . VARIANT . '/' . $source);
 }

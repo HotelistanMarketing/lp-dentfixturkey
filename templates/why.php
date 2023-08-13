@@ -17,7 +17,7 @@
             <ul>
                 <?php foreach (TR['why'] as $item): ?>
                     <li>
-                        <p><?= $item ?></p>
+                        <span><?= $item ?></span>
                     </li>
                 <?php endforeach; ?>
             </ul>
