@@ -10,20 +10,28 @@
   }
 }
 
+.hospital-tablet() {
+  #hospital {
+    .gallery {
+      grid-template-columns: repeat(2, auto);
+      gap: 10px;
+    }
+
+    img {
+      height: 100%;
+      border-radius: 10px;
+    }
+
+    picture:last-child {
+      grid-column: span 2;
+    }
+  }
+}
+
 .hospital-l-tablet() {
   #hospital {
     .gallery {
       grid-template-columns: repeat(3, auto);
-      gap: 10px;
-
-      img {
-        height: 100%;
-        border-radius: 10px;
-      }
-
-      picture:last-child {
-        grid-column: 2 / span 2;
-      }
     }
   }
 }

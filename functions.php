@@ -44,13 +44,13 @@ function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $
 }
 
 // TODO implement 2x images for high res screens
-function get_desktop_pic(string $src, bool $variant = false): void
+function get_pic_source_mq(string $src, bool $variant = false, string $bp = '992px'): void
 {
     $src = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;
     $img_info = getimagesize($_SERVER['DOCUMENT_ROOT'] .$src);
 
     ?>
-    <source media="(min-width:992px)"
+    <source media="(min-width:<?= $bp ?>)"
             srcset="<?= get_webp($src) ?>"
             width="<?= $img_info[0] ?>"
             height="<?= $img_info[1] ?>">
