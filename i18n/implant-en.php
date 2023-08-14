@@ -119,15 +119,17 @@ define('TR', array(
     "faq_title" => "Frequently Asked Questions",
     "faq" => array(
         ["Is implant very painful?",
-            "Lorem ipsum dolor sit amet."],
+            "During the dental implant procedure, local anesthesia will be used to numb the nerves around the implant area. This will prevent you from feeling any pain. You may experience some pressure, but it should not be uncomfortable."],
         ["How long does Hollywood smile last?",
-            "Lorem ipsum dolor sit amet."],
+            "The duration of a Hollywood smile is determined by the durability of the dental implants, crowns, or veneers used. Porcelain veneers can last over 20 years, while composite veneers last approximately 10 years."],
         ["How long does dental veneer last?",
-            "Dental veneers can endure for a long period, particularly if they are well adhered to the enamel. While composite veneers normally have a lifespan of 7–10 years, strong porcelain veneers have the ability to survive for 20 years or even longer. "],
+            "Dental veneers can endure for a long period, particularly if they are well adhered to the enamel. While composite veneers normally have a lifespan of 7–10 years, strong porcelain veneers have the ability to survive for 20 years or even longer."],
         ["What does a dental crown do?",
-            "Lorem ipsum dolor sit amet."],
+            "A dental crown is a cap that resembles a tooth that can be used to restore a tooth that has been decayed, damaged, weaker, or worn down. In addition, dental professionals may cover root-treated teeth and dental implants with crowns. Crowns can endure anywhere between five and fifteen years."],
+        ["Is implant very painful?",
+            "During the dental implant procedure, local anesthesia will be used to numb the nerves around the implant area. This will prevent you from feeling any pain. You may experience some pressure, but it is not uncomfortable."],
         ["Is it painful to get a crown?",
-            "Lorem ipsum dolor sit amet."],
+            "The regular dental treatment of getting a crown could make some people nervous since they are afraid of the discomfort. However, because your dentist will numb your mouth before beginning any treatment, the procedure shouldn't be uncomfortable. This holds true for each step of the procedure, from the first appointment to the last fitting."],
     ),
 
     // FOOTER
