@@ -9,7 +9,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 ?>
 
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="<?= LANG_CODE ?>">
 <?php include get_template('head.php') ?>
 <body>
 <main>

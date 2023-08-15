@@ -47,7 +47,7 @@ function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $
 function get_pic_source_mq(string $src, bool $variant = false, string $bp = '992px'): void
 {
     $src = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;
-    $img_info = getimagesize($_SERVER['DOCUMENT_ROOT'] .$src);
+    $img_info = getimagesize($_SERVER['DOCUMENT_ROOT'] . $src);
 
     ?>
     <source media="(min-width:<?= $bp ?>)"

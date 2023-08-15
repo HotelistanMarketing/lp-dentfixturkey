@@ -1,6 +1,7 @@
 <?php
 
 const VARIANT = 'implant';
+const LANG_CODE = 'en';
 const LEAD_LANGUAGE = 'English';
 const LEAD_TREATMENTS = 'Dental';
 const LEAD_TREATMENT = 'Implant';
