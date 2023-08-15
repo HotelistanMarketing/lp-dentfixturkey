@@ -1,4 +1,4 @@
-<section id="hero">
+<section id="hero" class="parallax">
     <?php include get_template('header.php') ?>
 
     <div class="container">
