@@ -3,9 +3,9 @@
         <h2 class="section-title"><?= TR['ba_title'] ?></h2>
         <div id="ba-swiper" class="swiper">
             <div class="swiper-wrapper gallery">
-                <?php for ($i = 1; $i < 4; $i++): ?>
+                <?php for ($i = 1; $i < 11; $i++): ?>
                     <div class="swiper-slide">
-                        <?php get_img(src: 'ba-' . $i . '.jpg', alt: 'before & after'); ?>
+                        <?php get_img(src: 'ba-' . $i . '.jpeg', alt: 'before & after'); ?>
                     </div>
                 <?php endfor ?>
             </div>

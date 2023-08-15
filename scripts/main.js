@@ -1,6 +1,6 @@
 const swiper = new Swiper("#ba-swiper", {
     slidesPerView: 1,
-    initialSlide: 1,
+    initialSlide: 5,
     loop: true,
     watchOverflow: false, // ignore if there are not enough slides
     autoplay: {
