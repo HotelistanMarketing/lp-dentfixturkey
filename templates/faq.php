@@ -17,6 +17,6 @@
                 <?php endforeach; ?>
             </ul>
         </div>
-        <img src="/assets/faq.jpg" width="960" height="758" alt="dental treatment" loading="lazy">
+        <?php get_img(src: 'faq.jpg', alt: 'dental treatment') ?>
     </div>
 </section>
