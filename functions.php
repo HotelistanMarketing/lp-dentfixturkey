@@ -30,19 +30,14 @@ function get_webp(string $source): string
     return $source;
 }
 
-function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $variant = false, bool $retina = false): void
+function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $retina = true, bool $variant = false): void
 {
     $path = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;
     $img_size = getimagesize($_SERVER['DOCUMENT_ROOT'] . $path);
     ?>
     <img src="<?= get_webp($path) ?>"
         <?php if ($retina): ?>
-            <?php
-            $dir = pathinfo($path, PATHINFO_DIRNAME);
-            $name = pathinfo($path, PATHINFO_FILENAME);
-            $highResPath = $dir . '/' . $name . '@2x.' . pathinfo($src, PATHINFO_EXTENSION)
-            ?>
-            srcset="<?= get_webp($highResPath) ?> 2x"
+            srcset="<?= get_webp(get_2x_src($path)) ?> 2x"
         <?php endif ?>
          alt="<?= $alt ?>"
          width="<?= $img_size[0] ?>"
@@ -51,23 +46,23 @@ function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $
     <?php
 }
 
-// TODO implement 2x images for high res screens
-function get_pic_source_mq(string $src, bool $variant = false, string $bp = '992px'): void
+function get_pic_source_mq(string $src, bool $variant = false, string $bp = '992px', bool $retina = true): void
 {
     $src = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;
-    $img_info = getimagesize($_SERVER['DOCUMENT_ROOT'] . $src);
+    $srcset = get_webp($src) . ' 1x';
 
+    if ($retina)
+        $srcset .= ', ' . get_webp(get_2x_src($src)) . ' 2x'
     ?>
-    <source media="(min-width:<?= $bp ?>)"
-            srcset="<?= get_webp($src) ?>"
-            width="<?= $img_info[0] ?>"
-            height="<?= $img_info[1] ?>">
+    <source media="(min-width:<?= $bp ?>)" srcset="<?= $srcset ?>">
     <?php
 }
 
-function get_img_src(string $source): string
+function get_2x_src(string $src): string
 {
-    return get_webp('/assets/' . VARIANT . '/' . $source);
+    $dir = pathinfo($src, PATHINFO_DIRNAME);
+    $name = pathinfo($src, PATHINFO_FILENAME);
+    return $dir . '/' . $name . '@2x.' . pathinfo($src, PATHINFO_EXTENSION);
 }
 
 function get_template(string $template): string

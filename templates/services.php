@@ -5,7 +5,7 @@
             <?php foreach (TR['services_details'] as $i => $details_arr): ?>
                 <div class="card">
                     <div class="card-title-wrapper">
-                        <?php get_img(src: 'service-' . $i + 1 . '.jpg', retina: true); ?>
+                        <?php get_img(src: 'service-' . $i + 1 . '.jpg'); ?>
                         <h2 class="card-title"><strong><?= $details_arr[0] ?></strong></h2>
                     </div>
                     <?php $arr_size = sizeof($details_arr); ?>

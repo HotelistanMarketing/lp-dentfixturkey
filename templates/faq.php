@@ -17,6 +17,6 @@
                 <?php endforeach; ?>
             </ul>
         </div>
-        <?php get_img(src: 'faq.jpg', alt: 'dental treatment', retina: true) ?>
+        <?php get_img(src: 'faq.jpg', alt: 'dental treatment') ?>
     </div>
 </section>
