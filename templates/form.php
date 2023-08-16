@@ -2,7 +2,7 @@
        value='f26b68fc575ddfcaee437b8e12d5515126eae05cf5d1a5976d576056a6237774'>
 <input type='hidden' name='zc_gad' id='zc_gad' value=''>
 <input type='text' style='display:none;' name='xmIwtLD'
-       value='0e65f475011faf7c6ff4c6942b525aed6ec0f297044fc1377833fa703fdc1128'>
+       value='0e65f475011faf7c6ff4c6942b525aed4359637541a529b149b48e7c3a350e75'>
 <input type='text' style='display:none;' name='actionType' value='TGVhZHM='>
 <input type='text' style='display:none;' name='returnURL' value='<?= FORM_THANK_YOU_PAGE ?>'>
 
@@ -47,11 +47,8 @@
 </select>
 
 <input class="hidden" id="utm_source" name="utm_source" type="hidden" value="">
-<button id='formsubmit' class='formsubmit button' title='Submit'>
-    <?= TR['form_button'] ?>
-</button>
+<input type="submit" id='formsubmit' class='formsubmit button' title='Submit' value="<?= TR['form_button'] ?>">
 
 <?php // Do not remove this --- Analytics Tracking code starts ?>
 <script id='wf_anal'
-        src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=0e65f475011faf7c6ff4c6942b525aed6ec0f297044fc1377833fa703fdc1128gidf26b68fc575ddfcaee437b8e12d5515126eae05cf5d1a5976d576056a6237774gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'>
-</script>
+        src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=0e65f475011faf7c6ff4c6942b525aed4359637541a529b149b48e7c3a350e75gidf26b68fc575ddfcaee437b8e12d5515126eae05cf5d1a5976d576056a6237774gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script>
