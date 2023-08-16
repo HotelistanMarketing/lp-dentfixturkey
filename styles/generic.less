@@ -99,6 +99,15 @@ strong {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
+  transition: background-color .25s ease-in-out, scale .25s ease-in-out;
+}
+
+.button:hover, .button:active {
+  background-color: #353768;
+}
+
+.button:active {
+  scale: 1.05;
 }
 
 .generic-tablet() {
