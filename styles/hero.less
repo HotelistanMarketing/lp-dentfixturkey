@@ -3,8 +3,8 @@
 #hero {
   position: relative;
   height: 857px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 
   > .container {
     display: flex;
@@ -60,12 +60,17 @@
 .hero-mobile() {
   #hero {
     background: url("/assets/hero-mobile.jpg");
+    // TODO check if hero-mobile 2x version looks good
   }
 }
 
 .hero-tablet-and-desktop() {
   #hero {
     background: url("/assets/hero.jpg");
+
+    @media @media-retina {
+      background: url("/assets/hero@2x.jpg");
+    }
   }
 }
 
@@ -108,12 +113,5 @@
     .org-title {
       display: none;
     }
-  }
-}
-
-// FIXME it should be by pixel density, not by screen width
-.hero-large() {
-  #hero {
-    //background: url("/assets/hero@2x.jpg");
   }
 }

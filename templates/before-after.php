@@ -5,7 +5,7 @@
             <div class="swiper-wrapper gallery">
                 <?php for ($i = 1; $i < 11; $i++): ?>
                     <div class="swiper-slide">
-                        <?php get_img(src: 'ba-' . $i . '.jpeg', alt: 'before & after'); ?>
+                        <?php get_img(src: 'ba-' . $i . '.jpeg', alt: 'before & after', retina: true); ?>
                     </div>
                 <?php endfor ?>
             </div>

@@ -30,12 +30,20 @@ function get_webp(string $source): string
     return $source;
 }
 
-function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $variant = false): void
+function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $variant = false, bool $retina = false): void
 {
     $path = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;
     $img_size = getimagesize($_SERVER['DOCUMENT_ROOT'] . $path);
     ?>
     <img src="<?= get_webp($path) ?>"
+        <?php if ($retina): ?>
+            <?php
+            $dir = pathinfo($path, PATHINFO_DIRNAME);
+            $name = pathinfo($path, PATHINFO_FILENAME);
+            $highResPath = $dir . '/' . $name . '@2x.' . pathinfo($src, PATHINFO_EXTENSION)
+            ?>
+            srcset="<?= get_webp($highResPath) ?> 2x"
+        <?php endif ?>
          alt="<?= $alt ?>"
          width="<?= $img_size[0] ?>"
          height="<?= $img_size[1] ?>"
