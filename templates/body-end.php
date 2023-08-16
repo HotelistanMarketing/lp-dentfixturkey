@@ -1,4 +1,5 @@
 <script src="/scripts/main.js" defer></script>
+<script src="/scripts/modernizr-webp.js" defer></script>
 <script src="/scripts/shared/wp-link-trigger.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>

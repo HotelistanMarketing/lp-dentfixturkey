@@ -58,14 +58,27 @@
 // MEDIA QUERIES
 
 .hero-mobile() {
-  #hero {
+  // TODO check if hero-mobile 2x version looks good
+
+  .webp #hero {
+    background: url("/assets/hero-mobile.webp");
+  }
+
+  .no-webp #hero {
     background: url("/assets/hero-mobile.jpg");
-    // TODO check if hero-mobile 2x version looks good
   }
 }
 
 .hero-tablet-and-desktop() {
-  #hero {
+  .webp #hero {
+    background: url("/assets/hero.webp");
+
+    @media @media-retina {
+      background: url("/assets/hero@2x.webp");
+    }
+  }
+
+  .no-webp #hero {
     background: url("/assets/hero.jpg");
 
     @media @media-retina {
