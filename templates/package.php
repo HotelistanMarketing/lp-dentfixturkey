@@ -1,6 +1,7 @@
 <section id="package">
     <div class="container">
         <h2 class="section-title"><?= TR['package_title'] ?></h2>
+        <?php // TODO wrap in slider ?>
         <div class="card-container">
             <?php foreach (TR['package_details'] as $i => $key_val_pair): ?>
                 <div class="card">

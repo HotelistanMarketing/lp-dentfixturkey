@@ -1,7 +1,4 @@
 <?php
-spl_autoload_extensions(".php");
-spl_autoload_register();
-
 include 'config.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-en.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
