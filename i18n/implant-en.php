@@ -37,7 +37,7 @@ define('TR', array(
     // WHY CHOOSE
     "why_title" => "Why Choose Us?",
     "why" => array(
-        "Dentfix offers comprehensive dental treatment services <strong>with state-of-the-art technology</strong> and personalized care.",
+        "<strong>State-Of-The-Art Technology</strong>",
         "<strong>All In One</strong> Services",
         "<strong>+15780</strong> Happy Patients",
         "<strong>+17 Years</strong> of Experience",
