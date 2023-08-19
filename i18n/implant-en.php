@@ -1,6 +1,6 @@
 <?php
 
-define('TR', array(
+const TR = array(
     "page_title" => "Turkey Dental Clinic in Istanbul | DentfixTurkey",
     "page_keywords" => "dental clinic, turkey, veneers, crowns, hollywood smile, restorative dentistry",
     "page_description" => "Our expert team of dentists offers a wide range of services for a beautiful and healthy smile. Schedule your appointment today and experience exceptional dental care at Turkey Dental Teeth Clinic - DentfixTurkey.",
@@ -62,14 +62,14 @@ define('TR', array(
             "Porcelain Veneers",
             "E-max Veneers",
             "Laminate Veneers",
-            "Prebless Veneers",
+            "Prepless Veneers",
             "Full Set of Veneers",
             "Full Mouth Dental Implant"],
         ["Dental Crowns",
             "Our Dental Crowns Packages:",
             "Celtra Crowns",
             "E-max Crowns",
-            "Zirconiom Crowns",
+            "Zirconium Crowns",
             "Porcelain Crowns",
             "Full Set of Crowns"],
         ["Hollywood Smile",
@@ -134,5 +134,5 @@ define('TR', array(
 
     // FOOTER
     "footer_social_title" => "Our Social Media",
-    "footer_copyright" => sprintf("All rights reserved © %s - Dentfix", date('Y')),
-));
+    "footer_copyright" => "All rights reserved © %s - Dentfix",
+);

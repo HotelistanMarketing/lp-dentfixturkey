@@ -43,7 +43,7 @@
                     <a href="#<?= $key ?>"><?= $value ?></a>
                 <?php endforeach; ?>
             </nav>
-            <span class="copyright-text"><?= TR['footer_copyright'] ?></span>
+            <span class="copyright-text"><?= sprintf(TR['footer_copyright'], date('Y')) ?></span>
         </div>
     </div>
 </footer>
