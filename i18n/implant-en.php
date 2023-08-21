@@ -44,7 +44,7 @@ const TR = array(
         "<strong>Cutting-Edge Technology</strong>",
         "<strong>Affordable</strong> Prices"
     ),
-    "why_desktop_descriptions" => array(
+    "why_descriptions" => array(
         "Experience advanced medical care with the latest technology.",
         "Convenient, comprehensive healthcare services in one place.",
         "Join thousands of satisfied patients who trust us.",
