@@ -9,11 +9,11 @@
 <label for='Last_Name'>Name &amp; Surname</label>
 <input type='text' id='Last_Name' name='Last Name' maxlength='80' placeholder="<?= TR['form_name'] ?>">
 
-<label for='Email'>Email</label>
-<input type='text' id='Email' name='Email' maxlength='100' placeholder="<?= TR['form_mail'] ?>">
-
 <label for='Mobile'>Mobile</label>
 <input type='text' id='Mobile' name='Mobile' maxlength='30' placeholder="<?= TR['form_phone'] ?>">
+
+<label for='Email'>Email</label>
+<input type='text' id='Email' name='Email' maxlength='100' placeholder="<?= TR['form_mail'] ?>">
 
 <label for='Country'>Country</label>
 <input type='hidden' id='Country' name='Country' maxlength='100' value='DefaultCountry'>
