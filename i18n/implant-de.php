@@ -45,6 +45,14 @@ const TR = array(
         "<strong>Spitzen- oder modernste Technologie</strong>",
         "<strong>Erschwingliche</strong> Preise"
     ),
+    "why_descriptions" => array(
+        "Erleben Sie fortschrittliche medizinische Versorgung mit der neuesten Technologie.",
+        "Bequeme, umfassende Gesundheitsdienste an einem Ort.",
+        "Schließen Sie sich Tausenden von zufriedenen Patienten an, die uns vertrauen.",
+        "Profitieren Sie von mehr als 17 Jahren Erfahrung und Kompetenz.",
+        "Modernste Instrumente für eine präzise Diagnose und Behandlung.",
+        "Qualitativ hochwertige Versorgung zu budgetfreundlichen Preisen."
+    ),
 
     // SERVICES
     "services_title" => "Schauen Sie sich unsere besonders empfohlenen Dentallösungen an",
@@ -64,8 +72,7 @@ const TR = array(
             "E-max Veneers",
             "Laminat-Veneers",
             "Veneers ohne Präparation",
-            "Vollständiger Satz von Veneers
-",
+            "Vollständiger Satz von Veneers",
             "Zahnimplantate im gesamten Mundbereich"],
         ["Zahnkronen",
             "Unsere Zahn-Veneer-Pakete:",
