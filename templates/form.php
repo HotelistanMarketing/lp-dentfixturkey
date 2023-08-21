@@ -47,7 +47,9 @@
 </select>
 
 <input class="hidden" id="utm_source" name="utm_source" type="hidden" value="">
-<input type="submit" id='formsubmit' class='formsubmit button' title='Submit' value="<?= TR['form_button'] ?>">
+<button type="submit" id='formsubmit' class='formsubmit button' title='Submit'>
+    <?= TR['form_button'] ?>
+</button>
 
 <?php // Do not remove this --- Analytics Tracking code starts ?>
 <script id='wf_anal'

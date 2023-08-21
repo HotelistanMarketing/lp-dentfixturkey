@@ -1,6 +1,6 @@
 <?php
 include 'config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-en.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-' . LANG_CODE . '.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 ?>

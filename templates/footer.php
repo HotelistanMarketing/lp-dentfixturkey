@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="footer-social">
-            <h4>Our Social Media</h4>
+            <h4><?= TR['footer_social_title'] ?></h4>
             <div>
                 <a href="<?= FACEBOOK_LINK ?>" target="_blank">
                     <img src="/assets/ico-facebook.svg" alt="facebook" width="44" height="44" loading="lazy">
