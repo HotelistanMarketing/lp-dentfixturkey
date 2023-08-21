@@ -44,6 +44,14 @@ const TR = array(
         "<strong>Cutting-Edge Technology</strong>",
         "<strong>Affordable</strong> Prices"
     ),
+    "why_desktop_descriptions" => array(
+        "Experience advanced medical care with the latest technology.",
+        "Convenient, comprehensive healthcare services in one place.",
+        "Join thousands of satisfied patients who trust us.",
+        "Benefit from 17+ years of skilled expertise.",
+        "Leading-edge tools for precise diagnosis and treatment.",
+        "Quality care at budget-friendly rates."
+    ),
 
     // SERVICES
     "services_title" => "Check Out Our Highly Recommended Dental Solutions",

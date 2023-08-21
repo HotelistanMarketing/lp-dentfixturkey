@@ -27,6 +27,10 @@
       > span {
         font-size: 18px;
         line-height: 24px;
+
+        &:last-of-type {
+          display: none;  // Show long description only on desktop
+        }
       }
 
       &:not(:last-child) {
@@ -54,7 +58,7 @@
     }
 
     section.why {
-      flex-basis: 40%;
+      flex-basis: 45%;
       background-color: unset;
     }
 
@@ -62,9 +66,19 @@
       list-style-position: outside !important;
       margin-left: calc(24px + 5px);
 
+      &:nth-of-type(5) {
+        display: none;  // Hide cutting-edge list item on desktop
+      }
+
       > span {
         display: block;
         padding-left: 5px !important;
+
+        &:last-of-type {
+          display: inline-block;
+          margin-top: 10px;
+
+        }
       }
 
       &:not(:last-child) {

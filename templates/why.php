@@ -17,9 +17,10 @@
         <section class="why">
             <h2 class="section-title"><?= TR['why_title'] ?></h2>
             <ul>
-                <?php foreach (TR['why'] as $item): ?>
+                <?php foreach (TR['why'] as $index => $item): ?>
                     <li>
                         <span><?= $item ?></span>
+                        <span><?= TR['why_desktop_descriptions'][$index] ?></span>
                     </li>
                 <?php endforeach; ?>
             </ul>
