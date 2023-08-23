@@ -3,15 +3,7 @@
         <div id="contact" class="form-box">
             <h2 class="section-title"><?= TR['form_title'] ?></h2>
             <p><?= TR['form_description'] ?></p>
-
-            <form id="contactForm"
-                  action='https://crm.zoho.com/crm/WebToLeadForm'
-                  name=WebToLeads4841144000105221001
-                  method='POST'
-                  onSubmit='return formFieldCheck()'
-                  accept-charset='UTF-8'>
-                <?php include get_template('form.php') ?>
-            </form>
+            <?php include get_script('shared/form.php') ?>
         </div>
 
         <section class="why">
