@@ -65,12 +65,18 @@ function get_2x_src(string $src): string
     return $dir . '/' . $name . '@2x.' . pathinfo($src, PATHINFO_EXTENSION);
 }
 
-function get_template(string $template): string
+function get_template(string $template, bool $common = false): string
 {
-    return $_SERVER['DOCUMENT_ROOT'] . '/templates/' . $template;
+    if ($common)
+        return $_SERVER['DOCUMENT_ROOT'] . '/commons/templates/' . $template;
+    else
+        return $_SERVER['DOCUMENT_ROOT'] . '/templates/' . $template;
 }
 
-function get_script(string $script): string
+function get_script(string $script, bool $common = false): string
 {
-    return $_SERVER['DOCUMENT_ROOT'] . '/scripts/' . $script;
+    if ($common)
+        return $_SERVER['DOCUMENT_ROOT'] . '/commons/scripts/' . $script;
+    else
+        return $_SERVER['DOCUMENT_ROOT'] . '/scripts/' . $script;
 }

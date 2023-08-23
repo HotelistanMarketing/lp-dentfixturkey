@@ -3,7 +3,7 @@
         <div id="contact" class="form-box">
             <h2 class="section-title"><?= TR['form_title'] ?></h2>
             <p><?= TR['form_description'] ?></p>
-            <?php include get_script('shared/form.php') ?>
+            <?php include get_template('form.php', common: true) ?>
         </div>
 
         <section class="why">

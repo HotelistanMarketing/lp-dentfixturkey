@@ -14,5 +14,5 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-    <?php include get_script('/shared/gtm.php') ?>
+    <?php include get_script('gtm.php', common: true) ?>
 </head>
