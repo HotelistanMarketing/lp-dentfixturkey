@@ -3,7 +3,6 @@
 const VARIANT = 'implant';
 const LANG_CODE = 'en';
 const LEAD_LANGUAGE = 'English';
-const LEAD_TREATMENTS = 'Dental';
-const LEAD_TREATMENT = 'Implant';
+const LEAD_INTEREST = 'Dental';
+const LEAD_PROCEDURE = 'Implant';
 const LEAD_SOURCE = 'Dentfix/Google/EN/Implant';
-const LEAD_DESCRIPTION = 'Dentfix English LP';
