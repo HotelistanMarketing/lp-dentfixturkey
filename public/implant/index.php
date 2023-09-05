@@ -10,6 +10,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 <?php include get_template('head.php') ?>
 <body>
 <main>
+    <?php if (LANG_CODE == 'en'): ?>
+        <?php include get_template('banner.php') ?>
+    <?php endif ?>
     <?php include get_template('hero.php') ?>
     <?php include get_template('why.php') ?>
     <?php include get_template('services.php') ?>

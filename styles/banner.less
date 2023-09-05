@@ -1,0 +1,33 @@
+@import "variables";
+
+.banner {
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  padding: 12px;
+  background-color: @accent-color;
+
+  & > h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    a {
+      color: #fff !important;
+    }
+  }
+
+  & span {
+    color: #ec8a23;
+  }
+}
+
+.banner-tablet-and-desktop() {
+  .banner > h2 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+  }
+}

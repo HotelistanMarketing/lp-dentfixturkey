@@ -18,6 +18,9 @@ const TR = array(
         "footer" => "Contact"
     ),
 
+    // BANNER
+    "banner_header" => "<span>Autumn Calls YOU!..</span> Special Offer. Save 25% and More.",
+
     // HERO
     "hero_title" => "Dental Clinic <br><span>in Turkey, Istanbul</span>",
     "hero_subtitle" => "Enhance Your Smile<br>with Dentfix Turkey’s Affordable Services",
