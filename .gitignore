@@ -1,6 +1,11 @@
-# LESS
+# IDE
+.idea/
+*.iml
+
+# Compiled CSS
 *.css
 *.css.map
 
-# IDE
-.idea/*
+# Composer
+vendor/*
+composer.phar
