@@ -1,0 +1,24 @@
+{
+  "repositories": [
+    {
+      "url": "https://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@github.com/HotelistanMarketing/commons",
+      "type": "git"
+    }
+  ],
+  "require": {
+    "oomphinc/composer-installers-extender": "^2.0",
+    "hotelistan/commons": "dev-main"
+  },
+  "extra": {
+    "installer-types": ["library"],
+    "installer-paths": {
+      "{$name}": ["hotelistan/commons"]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "oomphinc/composer-installers-extender": true
+    }
+  }
+}
