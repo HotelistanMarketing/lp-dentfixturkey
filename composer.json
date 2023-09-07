@@ -8,7 +8,7 @@
   "require": {
     "php": "~8.2",
     "oomphinc/composer-installers-extender": "^2.0",
-    "hotelistan/commons": "dev-main",
+    "hotelistan/commons": "dev-main"
   },
   "extra": {
     "installer-types": ["library"],
