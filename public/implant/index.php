@@ -3,8 +3,6 @@ include 'config.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-' . LANG_CODE . '.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
-
-header('Expires: ' . gmdate('D, d M Y H:i:s \G\M\T', time() + (60 * 60))); // 1 hour
 ?>
 
 <!DOCTYPE HTML>
