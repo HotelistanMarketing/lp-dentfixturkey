@@ -18,8 +18,12 @@ const TR = array(
         "footer" => "İletişim"
     ),
 
+    // BANNER
+    "banner_header" => "<span>Sonbahar fırsatları SİZİ bekliyor!..</span> Özel Teklif. %25 ve Daha Fazla İndirim.",
+
     // HERO
-    "hero_title" => "Türkiye, İstanbul'da <br><span>Diş Kliniği</span>",
+    "hero_title" => "<span>Diş Kliniği</span> İstanbul",
+    "hero_title_mobile" => "<span>Diş Kliniği</span><br>Türkiye",
     "hero_subtitle" => "Dentfix Türkiye'nin Uygun Fiyatlı Hizmetleriyle<br>Gülümsemenizi Güzelleştirin",
     "hero_button" => "En İyi Diş Tedavisine Ulaşın",
     "hero_org_title" => "Güvenilir Markalarımız",
@@ -126,8 +130,8 @@ const TR = array(
     // FAQ
     "faq_title" => "Sıkça Sorulan Sorular",
     "faq" => array(
-        ["İmplant çok acı verir mi?",
-            "Diş implantı işlemi sırasında implant alanının etrafındaki sinirleri uyuşturmak için lokal anestezi kullanılacak ve bu herhangi bir acı hissetmenizi engelleyecektir. Biraz baskı yaşayabilirsiniz ama bu rahatsız edici olmayacak."],
+        ["İmplant'ın markası önemli mi? İmplantın belirli bir kalitesi var mı?",
+            "Dentfix Türkiye olarak, diş tedavilerimizde yalnızca Ivoclar Vivadent, Straumann ve Nobel Biocare Implant gibi birinci sınıf ürünleri kullanıyoruz. Bu ürünler mükemmel olarak nitelendirilir. Hastalarımız için uzun süreli ve faydalı sonuçlar sağlar. En üst düzeyde diş sağlığı hizmetini sunma konusundaki kararlılığımız, bu önde gelen markalara olan bağlılığımıza da yansıyor. Daha fazla bilgi için diş araştırmaları konusunda saygın bir kaynak olan European Journal of Dentistry'i inceleyebilirsiniz."],
         ["Hollywood gülümsemesi ne kadar süre dayanır?",
             "Hollywood gülümsemesinin süresi, kullanılan diş implantlarının, kronların veya kaplamaların dayanıklılığına göre belirlenir. Porselen kaplamaların ömrü 20 yıldan fazla, kompozit kaplamaların ömrü ise yaklaşık 10 yıldır."],
         ["Diş kaplama ne kadar dayanır?",

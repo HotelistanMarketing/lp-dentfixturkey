@@ -22,7 +22,8 @@ const TR = array(
     "banner_header" => "<span>Autumn Calls YOU!..</span> Special Offer. Save 25% and More.",
 
     // HERO
-    "hero_title" => "Dental Clinic <br><span>in Turkey, Istanbul</span>",
+    "hero_title" => "Dental Clinic <span>in Turkey</span>",
+    "hero_title_mobile" => "Dental Clinic <br><span>in Turkey</span>",
     "hero_subtitle" => "Enhance Your Smile<br>with Dentfix Turkey’s Affordable Services",
     "hero_button" => "Get the Best Dental Solution",
     "hero_org_title" => "Our Reliable Brands",
