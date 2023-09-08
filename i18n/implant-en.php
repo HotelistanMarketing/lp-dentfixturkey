@@ -129,8 +129,8 @@ const TR = array(
     // FAQ
     "faq_title" => "Frequently Asked Questions",
     "faq" => array(
-        ["Is implant very painful?",
-            "During the dental implant procedure, local anesthesia will be used to numb the nerves around the implant area. This will prevent you from feeling any pain. You may experience some pressure, but it should not be uncomfortable."],
+        ["Is the brand of the implant important? Does the implant have quality?",
+            "For our dental procedures, Dentfix Turkey only utilizes premium products like Ivoclar Vivadent, Straumann, and Nobel Biocare Implant. These products are well-known for their excellence, ensuring long-lasting and beneficial results for our patients. Our dedication to delivering the finest caliber of dental care is reflected in our commitment to these top brands. You might consult the European Journal of Dentistry, a reputable source for dental research, for additional information."],
         ["How long does Hollywood smile last?",
             "The duration of a Hollywood smile is determined by the durability of the dental implants, crowns, or veneers used. Porcelain veneers can last over 20 years, while composite veneers last approximately 10 years."],
         ["How long does dental veneer last?",
