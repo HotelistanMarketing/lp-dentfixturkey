@@ -29,8 +29,8 @@ http {
 	client_body_timeout <%= ENV['NGINX_CLIENT_BODY_TIMEOUT'] || 5 %>;
 
 	server {
-		listen 8080;
-		server_name lptest.dentfixturkey.com;
+		listen 8080 default_server;
+        listen [::]:8080 default_server;
 		keepalive_timeout 5;
 		client_max_body_size <%= ENV['NGINX_CLIENT_MAX_BODY_SIZE'] || 1 %>M;
 
