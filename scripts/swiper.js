@@ -1,4 +1,4 @@
-const swiper = new Swiper("#ba-swiper", {
+new Swiper("#ba-swiper", {
     slidesPerView: 1,
     initialSlide: 5,
     loop: true,

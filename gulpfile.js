@@ -7,7 +7,6 @@ function concat_and_uglify_js() {
         'scripts/swiper.js',
         'commons/scripts/modernizr-webp.js',
         'commons/scripts/wp-link-trigger.js',
-        'commons/scripts/wp-link-trigger.js',
         'commons/scripts/form-country-input.js',
         'commons/scripts/faq-accordion.js',
     ])
