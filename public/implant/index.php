@@ -1,4 +1,6 @@
 <?php
+ob_start("ob_gzhandler");
+
 include 'config.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-' . LANG_CODE . '.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
