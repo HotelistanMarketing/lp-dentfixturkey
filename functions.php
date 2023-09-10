@@ -65,6 +65,11 @@ function get_2x_src(string $src): string
     return $dir . '/' . $name . '@2x.' . pathinfo($src, PATHINFO_EXTENSION);
 }
 
+function get_srcset(string $src): string
+{
+    return get_webp($src) . ' 1x, ' . get_webp(get_2x_src($src)) . ' 2x';
+}
+
 function get_template(string $template, bool $common = false): string
 {
     if ($common)

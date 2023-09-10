@@ -10,9 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/assets/ico-favicon.svg">
+    <link rel="preload" as="image" media="(max-width: 600px)" href="<?= get_webp('hero-mobile.jpg') ?>">
+    <link rel="preload" as="image" media="(min-width: 600.1px)" imagesrcset="<?= get_srcset('hero.jpg') ?>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/x-icon" href="/assets/ico-favicon.svg">
 
-<!--    --><?php //include get_script('gtm.php', common: true) ?>
+    <!--    --><?php //include get_script('gtm.php', common: true) ?>
 </head>
