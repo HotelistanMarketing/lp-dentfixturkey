@@ -13,7 +13,7 @@ function concat_and_uglify_js() {
     ])
         .pipe(concat('main.min.js'))
         .pipe(uglify({
-            'mangle': {toplevel: true},
+            'mangle': {toplevel: false},  // Keep intention clear - true causes bugs!
         }))
         .pipe(gulp.dest('scripts'));
 }
