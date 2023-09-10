@@ -1,4 +1,5 @@
 <?php
+header('Expires: ' . gmdate('r', time() + (60 * 60))); // 1 hour
 ob_start("ob_gzhandler");
 
 include 'config.php';
