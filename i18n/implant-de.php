@@ -20,7 +20,7 @@ const TR = array(
 
     // HERO
     "hero_title" => "Zahnklinik <br><span>in der Türkei, Istanbul</span>",
-    "hero_subtitle" => "Verbessern Sie Ihr Lächeln<br>mit den erschwinglichen Dienstleistungen von Dentfix Türkei",
+    "hero_subtitle" => "Verbessern Sie Ihr Lächeln mit den<br> erschwinglichen Dienstleistungen von Dentfix Türkei",
     "hero_button" => "Holen Sie sich die beste Dentallösung",
     "hero_org_title" => "Unsere zuverlässigen Marken",
 
