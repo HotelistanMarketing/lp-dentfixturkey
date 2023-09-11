@@ -18,8 +18,12 @@ const TR = array(
         "footer" => "Kontaktieren Sie uns"
     ),
 
+    // BANNER
+    "banner_header" => "<span>Herbst ruft SIE!..</span> Sonderangebot. Sparen Sie 25 % und mehr.",
+
     // HERO
-    "hero_title" => "Zahnklinik <br><span>in der Türkei, Istanbul</span>",
+    "hero_title" => "Zahnklinik <span>in der Türkei</span>",
+    "hero_title_mobile" => "Zahnklinik <br><span>in der Türkei</span>",
     "hero_subtitle" => "Verbessern Sie Ihr Lächeln mit den<br> erschwinglichen Dienstleistungen von Dentfix Türkei",
     "hero_button" => "Holen Sie sich die beste Dentallösung",
     "hero_org_title" => "Unsere zuverlässigen Marken",
@@ -45,12 +49,12 @@ const TR = array(
         "<strong>Erschwingliche</strong> Preise"
     ),
     "why_descriptions" => array(
-        "Erleben Sie fortschrittliche medizinische Versorgung mit der neuesten Technologie.",
-        "Bequeme, umfassende Gesundheitsdienste an einem Ort.",
-        "Schließen Sie sich Tausenden von zufriedenen Patienten an, die uns vertrauen.",
-        "Profitieren Sie von mehr als 17 Jahren Erfahrung und Kompetenz.",
-        "Modernste Instrumente für eine präzise Diagnose und Behandlung.",
-        "Qualitativ hochwertige Versorgung zu budgetfreundlichen Preisen."
+        "Erleben Sie moderne medizinische Versorgung mit modernster Technologie.",
+        "Bequeme, umfassende Gesundheitsdienstleistungen an einem Ort.",
+        "Schließen Sie sich Tausenden zufriedenen Patienten an, die uns vertrauen.",
+        "Profitieren Sie von über 17 Jahren kompetenter Expertise.",
+        "Modernste Werkzeuge für die präzise Diagnose und Behandlung.",
+        "Hochwertige Betreuung zu erschwinglichen Preisen."
     ),
 
     // SERVICES
@@ -126,8 +130,8 @@ const TR = array(
     // FAQ
     "faq_title" => "Häufig gestellte Fragen",
     "faq" => array(
-        ["Ist ein Implantat sehr schmerzhaft?",
-            "Während des Zahnimplantatverfahrens wird lokale Betäubung verwendet, um die Nerven im Bereich des Implantats zu betäuben. Dadurch werden Sie keine Schmerzen spüren. Sie könnten etwas Druck verspüren, aber es sollte nicht unangenehm sein."],
+        ["Ist die Marke des Implantats wichtig? Hat das Implantat Qualität?",
+            "Für unsere zahnärztlichen Eingriffe verwendet Dentfix Türkei ausschließlich hochwertige Produkte wie Ivoclar Vivadent, Straumann und Nobel Biocare Implantate. Diese Produkte sind bekannt für ihre Exzellenz und gewährleisten langanhaltende und vorteilhafte Ergebnisse für unsere Patienten. Unsere Hingabe, die höchste Qualität zahnärztlicher Versorgung zu bieten, spiegelt sich in unserem Engagement für diese Top-Marken wider. Sie können zur weiteren Information die European Journal of Dentistry konsultieren, eine angesehene Quelle für zahnmedizinische Forschung."],
         ["Wie lange hält ein Hollywood-Lächeln?",
             "Die Dauer eines Hollywood-Lächelns wird durch die Haltbarkeit der verwendeten Zahnimplantate, Kronen oder Veneers bestimmt. Porzellanvasen können über 20 Jahre halten, während Composite-Veneers etwa 10 Jahre halten."],
         ["Wie lange hält eine Zahnverblendung (Veneer)?",
