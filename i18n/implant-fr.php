@@ -10,7 +10,7 @@ const TR = array(
 
     // HEADER
     "nav_menu" => array(
-        "why" => "Pourquoi Nous Choisir ",
+        "why" => "Pourquoi Nous Choisir",
         "before-after" => "Avant & Après",
         "influencers" => "Influenceurs",
         "services" => "Services",
@@ -41,12 +41,12 @@ const TR = array(
     // WHY CHOOSE
     "why_title" => "Pourquoi Nous Choisir?",
     "why" => array(
-        "<strong>La meilleure Technologie</strong>",
-        "<strong>All In One</strong> Services",
-        "<strong>+15780</strong> Patients heureux",
-        "<strong>+17 ans</strong> d'expérience",
+        "<strong>La Meilleure Technologie</strong>",
+        "<strong>All In One Services</strong>",
+        "<strong>+15780 Patients Heureux</strong>",
+        "<strong>+17 Ans d'Expérience</strong>",
         "<strong>La Dernière des Technologie</strong>",
-        "Prix <strong>abordables</strong>"
+        "<strong>Prix Abordables</strong>"
     ),
     "why_descriptions" => array(
         "Faites confiance aux dernières technologies pour vous offrir les meilleurs soins médicaux possibles.",
@@ -99,7 +99,7 @@ const TR = array(
 
     // CALL TO ACTION
     "cta_title" => "Consultation en ligne gratuite",
-    "cta_subtitle" => "Consultation virtuelle :",
+    "cta_subtitle" => "Consultation virtuelle:",
     "cta_description" => "Prenez contact avec nous avant votre intervention chirurgicale pour une consultation préopératoire personnalisée.",
     "cta_button" => "Contactez-nous",
 
