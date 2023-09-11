@@ -15,7 +15,7 @@ const TR = array(
         "influencers" => "Influenceurs",
         "services" => "Services",
         "team" => "Notre équipe",
-        "footer" => "Contacter"
+        "footer" => "Contact"
     ),
 
     // BANNER
@@ -24,7 +24,7 @@ const TR = array(
     // HERO
     "hero_title" => "Clinique dentaire en Turquie",
     "hero_title_mobile" => "Clinique Dentaire en Turquie",
-    "hero_subtitle" => "Sublimez votre sourire<br> avec les services abordables de Dentfix Turquie",
+    "hero_subtitle" => "Sublimez votre sourire avec les services <br>abordables de Dentfix Turquie",
     "hero_button" => "Obtenez la meilleure solution dentaire",
     "hero_org_title" => "Nos marques de qualité",
 
@@ -33,7 +33,7 @@ const TR = array(
     "form_description" => "Remplissez le formulaire et permettez à nos experts de répondre rapidement à toutes vos questions.",
     "form_button" => "Ne tardez pas ! Obtenez un devis gratuit dès aujourd'hui !",
     "form_name" => "Nom et Prénom",
-    "form_mail" => "Courrier",
+    "form_mail" => "E-mail",
     "form_phone" => "Téléphone",
     "form_empty_field_warning" => "%s ne peut pas être vide.",
     "form_phone_validation" => "Veuillez fournir un numéro de téléphone valide.",
@@ -61,7 +61,7 @@ const TR = array(
     "services_title" => "Consultez nos solutions dentaires fortement recommandées",
     "service_card_button" => "Obtenir un prix",
     "services_details" => array(
-        ["Implants dentaires",
+        ["Implants Dentaires",
             "Nos Packages d'Implants Dentaires:",
             "All On Four",
             "All On Six",
@@ -74,11 +74,11 @@ const TR = array(
             "Facettes en porcelaine",
             "Facettes E-max",
             "Facette Laminée",
-            "facettes sans préparation",
+            "Facettes sans préparation",
             "Ensemble complet de Facette",
             "Implant dentaire pour toute la bouche"],
-        ["Couronnes dentaires",
-            "Nos Packages de Facettes dentaire :",
+        ["Couronnes Dentaires",
+            "Nos Packages de Couronnes dentaire :",
             "Couronnes Celtra",
             "Couronnes E-max",
             "Couronnes de zirconium",
@@ -110,15 +110,15 @@ const TR = array(
     "package_title" => "Informations sur les services Dentfix",
     "package_button" => "Obtenir des informations sur le prix",
     "package_details" => array(
-        ["Tous en un seul Package",
+        ["Tout en un Seul Package",
             "Découvrez la gamme complète des services dentaires de Dentfix, y compris les restaurations, les procédures et les solutions conçues pour répondre à tous vos besoins dentaires."],
-        ["Planifier une consultation",
+        ["Planifier une Consultation",
             "Prenez contact avec nous dès aujourd'hui pour explorer les options de traitement adaptées à vos besoins et vous aider à obtenir un sourire vibrant et magnifique qui rayonne à la fois santé et beauté."],
-        ["Transfert VIP de l'aéroport",
+        ["Transfert VIP de l'Aéroport",
             "Arrivez à Istanbul ? Notre équipe dédiée s'occupera de votre prise en charge à l'aéroport et de vos besoins en matière de transport local, en vous proposant une flotte de minivans VIP luxueux pour votre confort et votre commodité."],
         ["Hébergement",
             "Découvrez l'exclusivité de nos hôtels situés dans le centre d'Istanbul et de nos établissements partenaires de première classe."],
-        ["Visite guidée",
+        ["Visite Guidée",
             "Découvrez la beauté captivante de la Turquie, une destination vraiment remarquable. Maximisez votre expérience grâce à nos visites guidées et nos services de traduction, en vous immergeant dans des moments inoubliables."],
         ["Soins Post-Op",
             "Préserver les résultats à long terme de votre procédure est notre priorité. Profitez de nos soins postopératoires et de notre soutien, vous permettant ainsi d'établir des habitudes saines et durables."],
