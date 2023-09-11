@@ -1,6 +1,6 @@
 <?php
 
-$WEBP_SUPPORT = str_contains($_SERVER['HTTP_ACCEPT'], 'image/webp');
+define('WEBP_SUPPORT', str_contains($_SERVER['HTTP_ACCEPT'], 'image/webp'));
 
 function trim_number(string $readable_number): string
 {
@@ -18,8 +18,7 @@ function get_wp_link(string $number, string $keyword = ''): string
  */
 function get_webp(string $source): string
 {
-    global $WEBP_SUPPORT;
-    if ($WEBP_SUPPORT) {
+    if (WEBP_SUPPORT) {
         $dir = pathinfo($source, PATHINFO_DIRNAME);
         $name = pathinfo($source, PATHINFO_FILENAME);
         $destination = $dir . '/' . $name . '.webp';
