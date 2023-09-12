@@ -84,3 +84,8 @@ function get_script(string $script, bool $common = false): string
     else
         return $_SERVER['DOCUMENT_ROOT'] . '/scripts/' . $script;
 }
+
+function get_style($file_name): string
+{
+    return '/pages/' . basename(dirname($_SERVER['SCRIPT_FILENAME'])) . '/' . $file_name;
+}
