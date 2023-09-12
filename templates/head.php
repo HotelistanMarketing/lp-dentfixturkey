@@ -1,14 +1,7 @@
 <head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="<?= TR["page_description"] ?>">
-    <meta name="keywords" content="<?= TR["page_keywords"] ?>">
-    <title><?= TR["page_title"] ?></title>
+    <?php include get_template('meta.php', common: true) ?>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=block">
+    <?php get_google_font('Roboto', '300;400;700') ?>
     <link rel="preload" as="image" media="(max-width: 600px)" href="<?= get_webp('/assets/hero-mobile.jpg') ?>">
     <link rel="preload" as="image" media="(min-width: 600.1px)" imagesrcset="<?= get_srcset('/assets/hero.jpg') ?>">
     <link rel="preload" as="style" href="critic.css">
