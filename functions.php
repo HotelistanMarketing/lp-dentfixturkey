@@ -1,6 +1,7 @@
 <?php
 
 define('WEBP_SUPPORT', str_contains($_SERVER['HTTP_ACCEPT'], 'image/webp'));
+const WEBP_CLASS = WEBP_SUPPORT ? 'webp' : 'no-webp';
 
 function get_wp_link(string $number, string $keyword = ''): string
 {
@@ -62,9 +63,4 @@ function get_2x_src(string $src): string
 function get_srcset(string $src): string
 {
     return get_webp($src) . ' 1x, ' . get_webp(get_2x_src($src)) . ' 2x';
-}
-
-function get_style($file_name): string
-{
-    return '/pages/' . basename(dirname($_SERVER['SCRIPT_FILENAME'])) . '/' . $file_name;
 }
