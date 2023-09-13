@@ -2,7 +2,7 @@
 
 const EMAIL = 'info@dentfixturkey.com';
 const READABLE_PHONE_NUMBER = '+90 (546) 902 31 91';
-define('PHONE_NUMBER', trim_number(READABLE_PHONE_NUMBER));
+define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
 define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 const FACEBOOK_LINK = 'https://www.facebook.com/dentfix.turkey/';

@@ -2,11 +2,6 @@
 
 define('WEBP_SUPPORT', str_contains($_SERVER['HTTP_ACCEPT'], 'image/webp'));
 
-function trim_number(string $readable_number): string
-{
-    return preg_replace('/[\s()]/', '', $readable_number);
-}
-
 function get_wp_link(string $number, string $keyword = ''): string
 {
     $text = urlencode(sprintf(TR["whatsapp_message"], $keyword ?: TR['whatsapp_main_keyword']));
@@ -67,22 +62,6 @@ function get_2x_src(string $src): string
 function get_srcset(string $src): string
 {
     return get_webp($src) . ' 1x, ' . get_webp(get_2x_src($src)) . ' 2x';
-}
-
-function get_template(string $template, bool $common = false): string
-{
-    if ($common)
-        return $_SERVER['DOCUMENT_ROOT'] . '/commons/templates/' . $template;
-    else
-        return $_SERVER['DOCUMENT_ROOT'] . '/templates/' . $template;
-}
-
-function get_script(string $script, bool $common = false): string
-{
-    if ($common)
-        return $_SERVER['DOCUMENT_ROOT'] . '/commons/scripts/' . $script;
-    else
-        return $_SERVER['DOCUMENT_ROOT'] . '/scripts/' . $script;
 }
 
 function get_style($file_name): string
