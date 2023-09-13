@@ -11,5 +11,5 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="icon" type="image/x-icon" href="/assets/ico-favicon.svg">
 
-    <!--    --><?php //include get_script('gtm.php', common: true) ?>
+    <?php include get_script('gtm.php', common: true) ?>
 </head>
