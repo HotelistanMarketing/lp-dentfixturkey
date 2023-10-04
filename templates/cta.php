@@ -7,9 +7,7 @@
         </div>
         <div>
             <img src="/assets/ico-consult.svg" width="92" height="96" alt="video consultation" loading="lazy">
-            <a class="button" href="<?= WHATSAPP_LINK ?>" target="_blank">
-                <?= TR['cta_button'] ?>
-            </a>
+            <?php get_wp_button(TR['cta_button']) ?>
         </div>
     </div>
 </section>

@@ -157,14 +157,14 @@
             "source": {
                 "type": "git",
                 "url": "https://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@github.com/HotelistanMarketing/commons",
-                "reference": "f2b7314541b9aeed1e2f7526fc1b0da54a4e2c64"
+                "reference": "17bd2f0b38c9fe6d70a60deb4c7f938a43bcd425"
             },
             "require": {
                 "php": "~8.2"
             },
             "default-branch": true,
             "type": "library",
-            "time": "2023-09-17T08:31:33+00:00"
+            "time": "2023-10-04T11:19:25+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -236,5 +236,5 @@
         "php": "~8.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

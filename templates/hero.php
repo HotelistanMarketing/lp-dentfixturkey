@@ -5,9 +5,7 @@
         <div class="hero-content">
             <h1><?= TR["hero_title"] ?></h1>
             <span class="hero-subtitle"><?= TR["hero_subtitle"] ?></span>
-            <a class="button" href="<?= WHATSAPP_LINK ?>" target="_blank">
-                <?= TR["hero_button"] ?>
-            </a>
+            <?php get_wp_button(TR['hero_button']) ?>
         </div>
         <div id="org-section">
             <picture>

@@ -32,11 +32,6 @@ const TR = array(
     "form_title" => "Verbessern Sie Ihr schönes Lächeln mit Dentfix",
     "form_description" => "Bitte füllen Sie das Formular aus und erlauben Sie unseren Experten, umgehend auf eventuelle Fragen einzugehen, die Sie haben könnten.",
     "form_button" => "Beeilen Sie sich! Holen Sie sich ein kostenloses Angebot",
-    "form_name" => "Vor- und Nachname",
-    "form_mail" => "E-Mail-Adresse",
-    "form_phone" => "Telefonnummer",
-    "form_empty_field_warning" => "%s muss ausgefüllt werden.",
-    "form_phone_validation" => "Bitte geben Sie eine gültige Telefonnummer ein.",
 
     // WHY CHOOSE
     "why_title" => "Warum sollten Sie uns auswählen?",

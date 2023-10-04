@@ -32,11 +32,6 @@ const TR = array(
     "form_title" => "Rendez votre beau sourire plus radieux avec Dentfix",
     "form_description" => "Remplissez le formulaire et permettez à nos experts de répondre rapidement à toutes vos questions.",
     "form_button" => "Ne tardez pas ! Obtenez un devis gratuit dès aujourd'hui !",
-    "form_name" => "Nom et Prénom",
-    "form_mail" => "E-mail",
-    "form_phone" => "Téléphone",
-    "form_empty_field_warning" => "%s ne peut pas être vide.",
-    "form_phone_validation" => "Veuillez fournir un numéro de téléphone valide.",
 
     // WHY CHOOSE
     "why_title" => "Pourquoi Nous Choisir?",

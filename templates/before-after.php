@@ -11,6 +11,6 @@
             </div>
         </div>
         <div class="swiper-pagination"></div>
-        <a class="button" href="<?= WHATSAPP_LINK ?>"><?= TR['ba_button'] ?></a>
+        <?php get_wp_button(TR['ba_button']) ?>
     </div>
 </section>

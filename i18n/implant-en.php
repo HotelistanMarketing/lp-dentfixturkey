@@ -32,11 +32,6 @@ const TR = array(
     "form_title" => "Reshape Your Beautiful Smile with Dentfix",
     "form_description" => "Complete the form and allow our experts to promptly address any questions you may have.",
     "form_button" => "Hurry Up! Get A Free Quote",
-    "form_name" => "Name & Surname",
-    "form_mail" => "Mail",
-    "form_phone" => "Phone",
-    "form_empty_field_warning" => "%s cannot be empty.",
-    "form_phone_validation" => "Please fill a valid phone number.",
 
     // WHY CHOOSE
     "why_title" => "Why Choose Us?",

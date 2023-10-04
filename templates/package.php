@@ -8,9 +8,7 @@
                     <img src="/assets/ico-pkg-<?= $i + 1 ?>.svg" alt="" loading="lazy">
                     <h2 class="card-title"><strong><?= $key_val_pair[0] ?></strong></h2>
                     <p class="card-text"><?= $key_val_pair[1] ?></p>
-                    <a class="button" href="<?= WHATSAPP_LINK ?>" target="_blank">
-                        <?= TR['service_card_button'] ?>
-                    </a>
+                    <?php get_wp_button(TR['service_card_button']) ?>
                 </div>
             <?php endforeach; ?>
         </div>

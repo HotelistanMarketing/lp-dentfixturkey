@@ -32,11 +32,6 @@ const TR = array(
     "form_title" => "Güzel Gülüşünüzü Dentfix ile Yeniden Şekillendirin",
     "form_description" => "Uzmanlarımızın aklınıza takılan bütün soruları hızlıca cevaplaması için formu doldurun.",
     "form_button" => "Acele Edin! Ücretsiz Fiyat Teklifi Alın",
-    "form_name" => "Adınız & Soyadınız",
-    "form_mail" => "E-posta Adresiniz",
-    "form_phone" => "Telefon Numaranız",
-    "form_empty_field_warning" => "%s boş olamaz.",
-    "form_phone_validation" => "Lütfen geçerli bir telefon numarası giriniz.",
 
     // WHY CHOOSE
     "why_title" => "Neden Bizi Tercih Etmelisiniz?",

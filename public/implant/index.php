@@ -4,6 +4,7 @@ ob_start("ob_gzhandler");
 
 include 'config.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-' . LANG_CODE . '.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/commons/i18n/commons-' . LANG_CODE . '.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/commons/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
