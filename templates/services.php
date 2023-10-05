@@ -1,6 +1,6 @@
 <section id="services">
     <div class="container">
-        <h2 class="section-title turquoise"><?= TR['services_title'] ?></h2>
+        <h2 class="section-title"><?= TR['services_title'] ?></h2>
         <div class="card-container">
             <?php foreach (TR['services_details'] as $i => $details_arr): ?>
                 <div class="card">
