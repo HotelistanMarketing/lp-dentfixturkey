@@ -54,7 +54,7 @@ const TR = array(
 
     // SERVICES
     "services_title" => "Tavsiye edilen Diş Çözümlerimizi inceleyin",
-    "service_card_button" => "Fiyat Alın",
+    "service_card_button" => "Ayrıntılı Bilgi Alın",
     "services_details" => array(
         ["Diş İmplantları",
             "Diş İmplantı Paketlerimiz:",

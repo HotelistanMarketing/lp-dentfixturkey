@@ -54,7 +54,7 @@ const TR = array(
 
     // SERVICES
     "services_title" => "Consultez nos solutions dentaires fortement recommandées",
-    "service_card_button" => "Obtenir un prix",
+    "service_card_button" => "Obtenir plus d'informations",
     "services_details" => array(
         ["Implants Dentaires",
             "Nos Packages d'Implants Dentaires:",

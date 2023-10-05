@@ -1,2 +1,2 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/public/implant/index.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/variants/implant/index.php';

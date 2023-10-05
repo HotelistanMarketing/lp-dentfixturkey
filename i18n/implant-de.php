@@ -54,7 +54,7 @@ const TR = array(
 
     // SERVICES
     "services_title" => "Schauen Sie sich unsere besonders empfohlenen Dentallösungen an",
-    "service_card_button" => "Erhalten Sie einen Preis",
+    "service_card_button" => "Mehr Informationen erhalten",
     "services_details" => array(
         ["Zahnimplantat",
             "Unsere Zahnimplantatpakete:",

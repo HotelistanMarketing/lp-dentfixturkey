@@ -54,7 +54,7 @@ const TR = array(
 
     // SERVICES
     "services_title" => "Check Out Our Highly Recommended Dental Solutions",
-    "service_card_button" => "Get A Price",
+    "service_card_button" => "Get More Information",
     "services_details" => array(
         ["Dental Implants",
             "Our Dental Implant Packages:",
