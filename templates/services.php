@@ -1,33 +1,16 @@
 <section id="services">
     <div class="container">
-        <h2 class="section-title"><?= TR['services_title'] ?></h2>
+        <h2 class="section-title"><?= TR['package_title'] ?></h2>
+        <?php // TODO wrap in slider ?>
         <div class="card-container">
-            <?php foreach (TR['services_details'] as $i => $details_arr): ?>
+            <?php foreach (TR['package_details'] as $i => $key_val_pair): ?>
                 <div class="card">
-                    <div class="card-title-wrapper">
-                        <?php get_img(src: 'service-' . $i + 1 . '.jpg'); ?>
-                        <h2 class="card-title"><strong><?= $details_arr[0] ?></strong></h2>
-                    </div>
-                    <?php $arr_size = sizeof($details_arr); ?>
-                    <?php if ($arr_size > 2): ?>
-                        <strong class="card-subtitle"><?= $details_arr[1] ?></strong>
-                        <ul class="card-list">
-                            <?php for ($li = 2; $li < $arr_size; $li++): ?>
-                                <li>
-                                    <a href="<?= get_wp_link(WHATSAPP_NUMBER, $details_arr[$li]) ?>" target="_blank">
-                                        <?= $details_arr[$li] ?>
-                                    </a>
-                                </li>
-                            <?php endfor; ?>
-                        </ul>
-                    <?php else: ?>
-                        <p class="card-text"><?= $details_arr[1] ?></p>
-                    <?php endif ?>
-                    <a class="button" href="<?= get_wp_link(WHATSAPP_NUMBER, $details_arr[0]) ?>" target="_blank">
-                        <?= TR['service_card_button'] ?>
-                    </a>
+                    <img src="/assets/ico-pkg-<?= $i + 1 ?>.svg" alt="" loading="lazy">
+                    <h2 class="card-title"><strong><?= $key_val_pair[0] ?></strong></h2>
+                    <p class="card-text"><?= $key_val_pair[1] ?></p>
                 </div>
             <?php endforeach; ?>
         </div>
+        <?php get_wp_button(TR['service_card_button']) ?>
     </div>
 </section>
