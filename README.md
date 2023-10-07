@@ -14,7 +14,7 @@ service limitations.
     npm install gulp-cli -g
     npm install gulp
     npm install gulp-concat
-    npm install gulp-minify
+    npm install gulp-uglify
     ```
 
 ## CSS Minification
