@@ -5,6 +5,8 @@ const READABLE_PHONE_NUMBER = '+90 (546) 902 31 91';
 define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
 define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
+const ADDRESS = '19 Mayıs Mah. Etfal Hastanesi Sok.<br>Kent Apt. No: 2/78 <strong>Şişli / İstanbul</strong>';
+const MAP_URL = 'https://maps.app.goo.gl/meTo2wcQNwjxLsjG8';
 const FACEBOOK_LINK = 'https://www.facebook.com/dentfix.turkey/';
 const INSTAGRAM_LINK = 'https://www.instagram.com/dentfix.turkey/';
 const TIKTOK_LINK = 'https://www.tiktok.com/@dentfixturkey';

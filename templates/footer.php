@@ -4,11 +4,7 @@
         <div class="footer-info">
             <div>
                 <img class="icon" src="/assets/ico-location.svg" width="20" height="20" alt="address" loading="lazy">
-                <address>
-                    19 Mayıs Mah. Etfal Hastanesi Sok.<br>
-                    Kent Apt. Blok No: 2 İç Kapı No: 78<br>
-                    <strong>Şişli / İstanbul</strong>
-                </address>
+                <address><a href="<?= MAP_URL ?>"><?= ADDRESS ?></a></address>
             </div>
             <div>
                 <img class="icon" src="/assets/ico-phone.svg" width="20" height="20" alt="phone" loading="lazy">
