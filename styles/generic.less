@@ -1,20 +1,5 @@
 @import "variables";
-
-// UNIVERSAL BORDER BOX & SMOOTH SCROLL
-
-html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-// NORMALIZE
-
-@import (inline) "../commons/styles/normalize.min.css";
-@import (inline) "../commons/styles/min-reset.css";
+@import "../commons/styles/generic";
 
 // GENERICS & COMMONS
 
@@ -27,22 +12,6 @@ body {
 main {
   display: grid;
   grid-template-columns: 100%;
-}
-
-.container {
-  max-width: @page-width;
-  margin: 0 auto;
-  padding-left: @page-padding;
-  padding-right: @page-padding;
-}
-
-picture {
-  line-height: 0; // Remove space underneath images - https://stackoverflow.com/a/31445364
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .gallery {
@@ -125,7 +94,7 @@ strong {
     padding: 12px 25px;
   }
 
-  .parallax {
+  .pallax {
     background-attachment: fixed !important;
     background-position: center;
     background-repeat: no-repeat;

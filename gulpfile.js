@@ -6,6 +6,7 @@ function concat_and_uglify_js() {
     return gulp.src([
         'scripts/swiper.js',
         'commons/scripts/wp-link-trigger.js',
+        'commons/scripts/fix-transition-glitch.js',
         'commons/scripts/form-country-input.js',
         'commons/scripts/faq-accordion.js',
     ])
