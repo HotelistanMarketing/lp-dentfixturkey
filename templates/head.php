@@ -12,4 +12,5 @@
     <style><?php include($_SERVER['DOCUMENT_ROOT'] . '/variants/implant/critic.css') ?></style>
 
     <?php include get_script('gtm.php', common: true) ?>
+    <?php include get_script('hotjar.php', common: true) ?>
 </head>
