@@ -9,6 +9,7 @@ function concat_and_uglify_js() {
         'commons/scripts/fix-transition-glitch.js',
         'commons/scripts/form-country-input.js',
         'commons/scripts/faq-accordion.js',
+        'commons/scripts/wp-form.js',
     ])
         .pipe(concat('main.min.js'))
         .pipe(uglify({
