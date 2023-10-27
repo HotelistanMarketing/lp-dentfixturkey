@@ -8,6 +8,7 @@ function concat_and_uglify_js() {
         'commons/scripts/wp-link-trigger.js',
         'commons/scripts/fix-transition-glitch.js',
         'commons/scripts/form-country-input.js',
+        'commons/scripts/form-validation.js',
         'commons/scripts/faq-accordion.js',
         'commons/scripts/wp-form.js',
     ])

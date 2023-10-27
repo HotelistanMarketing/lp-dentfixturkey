@@ -9,3 +9,6 @@
 # Composer
 vendor/*
 composer.phar
+
+# Node
+node_modules
