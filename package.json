@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "cd commons/devtools && chmod +x run-lessc.sh && ./run-lessc.sh"
+    "postinstall": "chmod +x ./commons/devtools/run-lessc.sh && ./commons/devtools/run-lessc.sh"
   },
   "dependencies": {
     "less": ">=4.2.0",
