@@ -8,6 +8,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/commons/i18n/commons-' . LANG_CODE . '.php
 include $_SERVER['DOCUMENT_ROOT'] . '/commons/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
+
+syslog(LOG_INFO, 'logging test... IP is: ');
+syslog(LOG_INFO, GetRealUserIp());
 ?>
 
 <!DOCTYPE HTML>
@@ -34,5 +37,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 <?php include get_template('whatsapp-fab.php', common: true) ?>
 <?php include get_template('wp-form.php', common: true) ?>
 <?php include get_template('body-end.php') ?>
+<a class="debug" style="display: none">
+    <?= GetRealUserIp() ?>
+</a>
 </body>
 </html>
