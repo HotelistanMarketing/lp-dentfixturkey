@@ -39,6 +39,31 @@ syslog(LOG_INFO, GetRealUserIp());
 <?php include get_template('body-end.php') ?>
 <a class="debug" style="display: none">
     <?= GetRealUserIp() ?>
+    <?php
+    $ch = curl_init();
+    $post_data = [
+        "ip" => "string",
+        "project" => "dentfixturkey"
+    ];
+
+    curl_setopt($ch, CURLOPT_URL, "https://projects-logs.vercel.app/api/logs");
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_data));
+//    curl_setopt($ch, CURLOPT_HEADER, "Content-Type: application/json");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    $server_output = curl_exec($ch);
+
+    curl_close($ch);
+
+    echo "test...";
+    if ($server_output) {
+        echo "success";
+    } else {
+        echo "failed";
+    }
+    echo `<h1>$server_output</h2>`;
+    ?>
 </a>
 </body>
 </html>
