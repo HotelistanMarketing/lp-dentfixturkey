@@ -48,9 +48,11 @@ syslog(LOG_INFO, GetRealUserIp());
 
     curl_setopt($ch, CURLOPT_URL, "https://projects-logs.vercel.app/api/logs");
     curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_data));
-//    curl_setopt($ch, CURLOPT_HEADER, "Content-Type: application/json");
+    // curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_data));
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "ip=gndz&project=php");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    //    $return = shell_exec("curl --location --request POST 'https://projects-logs.vercel.app/api/logs?ip=gndz&project=gndz'");
 
     $server_output = curl_exec($ch);
 
@@ -60,7 +62,7 @@ syslog(LOG_INFO, GetRealUserIp());
     if ($server_output) {
         echo "success";
     } else {
-        echo "failed";
+        echo 'Curl error: ' . curl_error($ch);
     }
     echo `<h1>$server_output</h2>`;
     ?>
