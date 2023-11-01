@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "366f1031a9439a738bf6fe110ccbb7ba",
+    "content-hash": "beeb3ed9e91951e9dd9cf10ac49a3f81",
     "packages": [
         {
             "name": "composer/installers",
@@ -157,14 +157,15 @@
             "source": {
                 "type": "git",
                 "url": "https://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@github.com/HotelistanMarketing/commons",
-                "reference": "fbb12c2eb471b18a642020f8c896beabdbb95913"
+                "reference": "9f58f677b3a47a69358f7b3c629407aed6ef2f83"
             },
             "require": {
+                "ext-curl": "*",
                 "php": "~8.2"
             },
             "default-branch": true,
             "type": "library",
-            "time": "2023-10-28T21:59:45+00:00"
+            "time": "2023-11-01T14:14:28+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -233,8 +234,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~8.2",
-        "ext-curl": "*"
+        "php": "~8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"

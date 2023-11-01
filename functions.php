@@ -64,33 +64,3 @@ function get_srcset(string $src): string
 {
     return get_webp($src) . ' 1x, ' . get_webp(get_2x_src($src)) . ' 2x';
 }
-
-
-/**
- * Get real user ip
- *
- * Usage sample:
- * GetRealUserIp();
- * GetRealUserIp('ERROR',FILTER_FLAG_NO_RES_RANGE);
- *
- * @param string|null $default default return value if no valid ip found
- * @param int $filter_options filter options. default is FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE
- *
- * @return string real user ip
- */
-
-function GetRealUserIp(string $default = NULL, int $filter_options = 12582912): string
-{
-    $HTTP_X_FORWARDED_FOR = $_SERVER["HTTP_X_FORWARDED_FOR"] ?? '';
-    $HTTP_CLIENT_IP = $_SERVER["HTTP_CLIENT_IP"] ?? '';
-    $HTTP_CF_CONNECTING_IP = $_SERVER["HTTP_CF_CONNECTING_IP"] ?? '';
-    $REMOTE_ADDR = $_SERVER["REMOTE_ADDR"] ?? getenv('REMOTE_ADDR');
-
-    $all_ips = explode(",", "$HTTP_X_FORWARDED_FOR,$HTTP_CLIENT_IP,$HTTP_CF_CONNECTING_IP,$REMOTE_ADDR");
-    foreach ($all_ips as $ip) {
-        if ($ip = filter_var($ip, FILTER_VALIDATE_IP, $filter_options))
-            break;
-    }
-
-    return $ip ?? 'NULL';
-}
