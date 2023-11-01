@@ -40,31 +40,27 @@ syslog(LOG_INFO, GetRealUserIp());
 <a class="debug" style="display: none">
     <?= GetRealUserIp() ?>
     <?php
-    $ch = curl_init();
-    $post_data = [
-        "ip" => "string",
-        "project" => "dentfixturkey"
-    ];
+        $ch = curl_init();
+        $url = "https://projects-logs.vercel.app/api/logs?";
+        $post_data = [
+            "ip" => GetRealUserIp(),
+            "project" => "dentfix"
+        ];
 
-    curl_setopt($ch, CURLOPT_URL, "https://projects-logs.vercel.app/api/logs");
-    curl_setopt($ch, CURLOPT_POST, true);
-    // curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_data));
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "ip=gndz&project=php");
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_URL, $url . http_build_query($post_data));
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-    //    $return = shell_exec("curl --location --request POST 'https://projects-logs.vercel.app/api/logs?ip=gndz&project=gndz'");
+        $server_output = curl_exec($ch);
 
-    $server_output = curl_exec($ch);
+        curl_close($ch);
 
-    curl_close($ch);
-
-    echo "test...";
-    if ($server_output) {
-        echo "success";
-    } else {
-        echo 'Curl error: ' . curl_error($ch);
-    }
-    echo `<h1>$server_output</h2>`;
+        echo $server_output;
+        if ($server_output == false) {
+            echo 'Curl error: ' . curl_error($ch);
+        } else {
+            echo "success";
+        }
     ?>
 </a>
 </body>
