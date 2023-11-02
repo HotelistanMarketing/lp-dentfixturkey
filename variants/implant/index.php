@@ -15,9 +15,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 <?php include get_template('head.php') ?>
 <body class="<?= WEBP_CLASS ?>">
 <main>
-    <?php if (LANG_CODE == 'en'): ?>
-        <?php include get_template('banner.php') ?>
-    <?php endif ?>
+    <?php include get_template('banner.php') ?>
     <?php include get_template('hero.php') ?>
     <?php include get_template('why.php') ?>
     <?php include get_template('before-after.php') ?>
