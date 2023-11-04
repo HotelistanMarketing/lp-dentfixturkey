@@ -66,6 +66,12 @@ strong {
   line-height: 1.5;
   text-align: center;
   transition: background-color .4s, scale .4s;
+
+  @media @media-mobile {
+    html[lang^='it'] & {
+      font-size: 16px;
+    }
+  }
 }
 
 .button:hover, .button:active {
