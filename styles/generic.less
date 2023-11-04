@@ -45,7 +45,7 @@ strong {
 .section-title {
   font-weight: 700;
   font-size: 32px;
-  line-height: 43px;
+  line-height: 1.2;
   text-align: center;
   margin-bottom: 30px;
   color: @accent-color;
@@ -53,7 +53,7 @@ strong {
 
 .button {
   min-width: 300px;
-  max-width: 300px;
+  max-width: fit-content;
   color: #fff;
   background-color: @accent-color;
   outline: none;
@@ -63,7 +63,7 @@ strong {
   border: 3px solid #25286A;
   font-weight: 700;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.5;
   text-align: center;
   transition: background-color .4s, scale .4s;
 }
@@ -84,20 +84,11 @@ strong {
 .generic-desktop() {
   .section-title {
     font-size: 34px;
-    line-height: 46px;
     margin-bottom: 60px;
   }
 
   .button {
     font-size: 18px;
-    line-height: 30px;
     padding: 12px 25px;
-  }
-
-  .pallax {
-    background-attachment: fixed !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
