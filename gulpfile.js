@@ -3,7 +3,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 
 function concat_and_uglify_js() {
-    return gulp.src([
+    const mainJob = gulp.src([
         'scripts/swiper.js',
         'commons/scripts/wp-link-trigger.js',
         'commons/scripts/fix-transition-glitch.js',
@@ -17,6 +17,20 @@ function concat_and_uglify_js() {
             'mangle': {toplevel: false},  // Keep intention clear - true causes bugs!
         }))
         .pipe(gulp.dest('scripts'));
+
+    const fbJob = gulp.src([
+        'commons/scripts/form-country-input.js',
+        'commons/scripts/form-validation.js',
+        'commons/scripts/wp-link-trigger.js',
+        'commons/scripts/fix-transition-glitch.js',
+    ])
+        .pipe(concat('fb.min.js'))
+        .pipe(uglify({
+            'mangle': {toplevel: false},  // Keep intention clear - true causes bugs!
+        }))
+        .pipe(gulp.dest('scripts'));
+
+    return mainJob && fbJob;
 }
 
 gulp.task('uglify-merge', concat_and_uglify_js);
