@@ -17,6 +17,9 @@ define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 const GTM_ID = 'GTM-W4KM7W2';
 const HOTJAR_ID = '3703079';
 
+const LEAD_INTEREST = 'Dental';
+const LEAD_PROCEDURE = 'Implant';
+
 const FORM_NAME = 'WebToLeads4841144000107484302';
 const FORM_THANK_YOU_PAGE = 'https://dentfixturkey.com/thank-you';
 const FORM_xmIwtLD = '0e65f475011faf7c6ff4c6942b525aed4359637541a529b149b48e7c3a350e75';
