@@ -3,9 +3,9 @@ header('Expires: ' . gmdate('r', time() + (60 * 60))); // 1 hour
 ob_start("ob_gzhandler");
 
 include 'config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-' . LANG_CODE . '.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/commons/i18n/commons-' . LANG_CODE . '.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/commons/functions.php';
+include get_localization('implant', LANG_CODE);
+include get_localization('commons', LANG_CODE, common: true);
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 ?>
@@ -13,7 +13,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 <!DOCTYPE HTML>
 <html lang="<?= LANG_CODE ?>">
 <?php include get_template('head.php') ?>
-<body class="<?= WEBP_CLASS ?>">
+<body class="preload <?= WEBP_CLASS ?>">
 <main>
     <?php include get_template('banner.php') ?>
     <?php include get_template('hero.php') ?>
