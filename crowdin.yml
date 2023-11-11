@@ -7,15 +7,17 @@
 files: [
   {
     "source": "implant-en.php",
-    "translation": "/implant-%two_letters_code%.php",
-    "dest": "implant.php",
+    "dest": "dentfix-implant.php",
+    "translation": "/dentfix-implant-%two_letters_code%.php",
+    "translation_replace": { "dentfix-": "" },
+    "excluded_target_languages": [ "es-ES" ],
 
     #
     # The parameter "update_option" is optional.
     # If it is not set, the translations for changed strings will be removed.
     # Use to fix typos and for minor changes in the source strings
     # e.g. "update_as_unapproved" or "update_without_changes"
+    # "update_option": "update_without_changes",
     #
-    "update_option": "update_without_changes",
   }
 ]
