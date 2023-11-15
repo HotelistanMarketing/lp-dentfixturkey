@@ -21,5 +21,11 @@
       "composer/installers": true,
       "oomphinc/composer-installers-extender": true
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "chmod +x ./commons/devtools/run-lessc.sh",
+      "./commons/devtools/run-lessc.sh"
+    ]
   }
 }
