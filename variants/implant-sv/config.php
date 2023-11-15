@@ -1,6 +1,6 @@
 <?php
 
 const VARIANT = 'implant';
-const LANG_CODE = 'it';
-const LEAD_LANGUAGE = 'İtalian';
-const LEAD_SOURCE = 'Dentfix/Google/IT/Implant';
+const LANG_CODE = 'sv';
+const LEAD_LANGUAGE = 'Swedish';
+const LEAD_SOURCE = 'Dentfix/Google/Sv/Implant';
