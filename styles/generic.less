@@ -9,11 +9,6 @@ body {
   color: @accent-color;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 100%;
-}
-
 .gallery {
   & picture, img {
     width: 100%;
@@ -21,20 +16,8 @@ main {
 }
 
 a:link, a:visited {
-  text-decoration: none;
-
   &:not(.button) {
     color: @accent-color;
-  }
-}
-
-a:link:not(.button) {
-  text-decoration-color: #0000;
-  text-underline-offset: 0.1em;
-  transition: text-decoration-color 400ms;
-
-  &:hover {
-    text-decoration: underline;
   }
 }
 
@@ -52,26 +35,15 @@ strong {
 }
 
 .button {
-  min-width: 300px;
-  max-width: fit-content;
   color: #fff;
   background-color: @accent-color;
-  outline: none;
-  cursor: pointer;
   padding: 9px 25px;
   border-radius: 10px;
   border: 3px solid #25286A;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   transition: background-color .4s, scale .4s;
-
-  @media @media-mobile {
-    html[lang^='it'] & {
-      font-size: 16px;
-    }
-  }
 }
 
 .button:hover, .button:active {

@@ -13,7 +13,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 <!DOCTYPE HTML>
 <html lang="<?= LANG_CODE ?>">
 <?php include get_template('head.php') ?>
-<body class="preload <?= WEBP_CLASS ?>">
+<body class="preload">
 <main>
     <?php include get_template('banner.php') ?>
     <?php include get_template('hero.php') ?>

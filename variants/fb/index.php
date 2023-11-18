@@ -29,7 +29,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
     <?php include get_script('hotjar.php', common: true) ?>
 </head>
 
-<body class="<?= WEBP_CLASS ?> ">
+<body class="preload">
 <main>
     <section class="fb">
         <div class="container">

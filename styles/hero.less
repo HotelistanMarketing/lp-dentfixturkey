@@ -52,29 +52,17 @@
 .mq-mobile-critic() {
   // TODO check if hero-mobile 2x version looks good
 
-  .webp #hero {
+  #hero {
     background: url("/assets/hero-mobile.webp");
-  }
-
-  .no-webp #hero {
-    background: url("/assets/hero-mobile.jpg");
   }
 }
 
 .mq-tablet-critic() {
-  .webp #hero {
+  #hero {
     background: url("/assets/hero.webp");
 
     @media @media-retina {
       background: url("/assets/hero@2x.webp");
-    }
-  }
-
-  .no-webp #hero {
-    background: url("/assets/hero.jpg");
-
-    @media @media-retina {
-      background: url("/assets/hero@2x.jpg");
     }
   }
 }
