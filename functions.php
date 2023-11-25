@@ -2,7 +2,7 @@
 
 function get_wp_link(string $number, string $keyword = ''): string
 {
-    $text = urlencode(sprintf(TR["whatsapp_message"], $keyword ?: TR['whatsapp_main_keyword']));
+    $text = urlencode(sprintf(TRC["wp_message"], $keyword ?: TR['whatsapp_main_keyword']));
     return sprintf('https://api.whatsapp.com/send?phone=%s&text=%s', $number, $text);
 }
 

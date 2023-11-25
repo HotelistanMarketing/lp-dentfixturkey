@@ -1,12 +1,11 @@
 <?php
 
 const TR = array(
-    "page_title" => "Turkiet tandklinik i Istanbul <unk> DentfixTurkiet",
+    "page_title" => "Turkiet tandklinik i Istanbul | DentfixTurkiet",
     "page_keywords" => "tandvårdsklinik, turkiet, fasad, kronor, hollywood smile, restaurerande tandvård",
     "page_description" => "Vårt expertteam av tandläkare erbjuder ett brett utbud av tjänster för ett vackert och hälsosamt leende. Schemalägg ditt möte idag och upplev exceptionell tandvård på Turkey Dental Teeth Clinic - DentfixTurkey.",
 
     "whatsapp_main_keyword" => "tandimplantat",
-    "whatsapp_message" => "Hej, Jag skulle vilja veta om de tjänster och priser som erbjuds för %s i Turkiet.",
 
     // HEADER
     "nav_menu" => array(

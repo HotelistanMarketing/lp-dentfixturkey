@@ -6,7 +6,6 @@ const TR = array(
     "page_description" => "Unser erfahrenes Team von Zahnärzten bietet Ihnen eine breite Palette von Dienstleistungen für ein schönes und gesundes Lächeln an. Vereinbaren Sie noch heute Ihren Termin und erleben Sie außergewöhnliche Zahnversorgung in der Türkei Dental Zahnklinik - DentfixTürkei",
 
     "whatsapp_main_keyword" => "Zahnimplantat",
-    "whatsapp_message" => "Hallo, ich würde gerne mehr über die Dienstleistungen und Preise %s in der Türkei erfahren.",
 
     // HEADER
     "nav_menu" => array(

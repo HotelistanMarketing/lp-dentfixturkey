@@ -6,7 +6,6 @@ const TR = array(
     "page_description" => "Notre équipe d'experts dentistes offre une large gamme de services pour un sourire beau et sain. Prenez rendez-vous dès aujourd'hui et profitez d'une prise en charge dentaire exceptionnelle à la clinique dentaire DentfixTurkey en Turquie.",
 
     "whatsapp_main_keyword" => "implant dentaire",
-    "whatsapp_message" => "Bonjour, je voudrais savoir sur les services et les prix offerts pour %s en Turquie.",
 
     // HEADER
     "nav_menu" => array(

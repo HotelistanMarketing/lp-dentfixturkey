@@ -6,7 +6,6 @@ const TR = array(
     "page_description" => "Il nostro team di dentisti esperti offre una vasta gamma di servizi per un sorriso bello e sano. Prenota il tuo appuntamento oggi e scopri cure odontoiatriche eccezionali presso la clinica dentale in Turchia - DentfixTurkey.",
 
     "whatsapp_main_keyword" => "impianto dentale",
-    "whatsapp_message" => "Ciao, vorrei ricevere maggiori informazioni su servizi e prezzi offerti per %s in Turchia.",
 
     // HEADER
     "nav_menu" => array(

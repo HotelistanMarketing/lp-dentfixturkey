@@ -6,7 +6,6 @@ const TR = array(
     "page_description" => "Our expert team of dentists offers a wide range of services for a beautiful and healthy smile. Schedule your appointment today and experience exceptional dental care at Turkey Dental Teeth Clinic - DentfixTurkey.",
 
     "whatsapp_main_keyword" => "dental implant",
-    "whatsapp_message" => "Hello, I would like to know about the services and prices offered for %s in Turkey.",
 
     // HEADER
     "nav_menu" => array(

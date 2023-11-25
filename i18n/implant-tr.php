@@ -6,7 +6,6 @@ const TR = array(
     "page_description" => "Uzman Diş Hekimlerimiz, güzel ve sağlıklı bir gülümseme için geniş bir hizmet yelpazesi sunuyor. Randevunuzu bugün ayarlayın ve DentfixTürkiye - Türkiye Diş Tedavi Kliniği'nde olağanüstü diş bakımını deneyimleyin.",
 
     "whatsapp_main_keyword" => "diş implantı",
-    "whatsapp_message" => "Merhaba, Türkiye'de %s için sunulan hizmetler ve fiyatlar hakkında bilgi almak istiyorum.",
 
     // HEADER
     "nav_menu" => array(
