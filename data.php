@@ -3,7 +3,7 @@
 const EMAIL = 'info@dentfixturkey.com';
 const ADDRESS = '19 Mayıs Mah. Etfal Hastanesi Sok.<br>Kent Apt. No: 2/78 <strong>Şişli / İstanbul</strong>';
 const MAP_URL = 'https://maps.app.goo.gl/meTo2wcQNwjxLsjG8';
-const FACEBOOK_LINK = 'https://www.facebook.com/dentfix.turkey/';
+const FACEBOOK_LINK = 'https://www.facebook.com/people/Denfix-Clinic/100088026948190/';
 const INSTAGRAM_LINK = 'https://www.instagram.com/dentfix.turkey/';
 const TIKTOK_LINK = 'https://www.tiktok.com/@dentfixturkey';
 
