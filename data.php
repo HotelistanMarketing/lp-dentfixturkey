@@ -14,7 +14,7 @@ define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
 define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 
-const GTM_ID = 'GTM-W4KM7W2';
+define('GTM_ID', str_contains($_SERVER['HTTP_HOST'], 'arpanumedical.com') ? 'GTM-5H727LL' : 'GTM-W4KM7W2');
 const HOTJAR_ID = '3703079';
 
 const LEAD_INTEREST = 'Dental';
