@@ -15,7 +15,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 <head>
     <?php include get_template('meta.php', common: true) ?>
 
-    <?php get_google_font('Roboto', display: 'swap') ?>
     <link rel="preload" as="image" media="(max-width: 600px)" href="<?= get_webp('/assets/fb/banner.jpg') ?>">
     <link rel="preload" as="image" media="(min-width: 600.1px)" href="<?= get_webp('/assets/fb/banner-desktop.jpg') ?>">
     <?php get_preload_style('/commons/styles/intl-tel-input.min.css'); ?>

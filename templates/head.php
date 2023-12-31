@@ -1,7 +1,6 @@
 <head>
     <?php include get_template('meta.php', common: true) ?>
 
-    <?php get_google_font('Roboto', '300;400;700', display: 'swap') ?>
     <link rel="preload" as="image" media="(max-width: 600px)" href="<?= get_webp('/assets/hero-mobile.jpg') ?>">
     <link rel="preload" as="image" media="(min-width: 600.1px)" imagesrcset="<?= get_srcset('/assets/hero.jpg') ?>">
     <link rel="preload" as="style" href="/variants/implant/style.css">
