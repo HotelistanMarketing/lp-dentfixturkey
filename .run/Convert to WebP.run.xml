@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Convert to WebP" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/commons/devtools/convert-to-webp.php">
+    <CommandLine workingDirectory="$PROJECT_DIR$/assets" />
+    <method v="2" />
+  </configuration>
+</component>
