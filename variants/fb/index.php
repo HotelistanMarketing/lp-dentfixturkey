@@ -16,10 +16,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
     <?php include get_template('meta.php', common: true) ?>
 
     <?php get_google_font('Roboto', display: 'swap') ?>
-    <link rel="preload" as="image" media="(max-width: 600px)"
-          href="<?= get_webp('/assets/fb/lead-banner-mobile.jpg') ?>">
-    <link rel="preload" as="image" media="(min-width: 600.1px)"
-          href="<?= get_webp('/assets/fb/lead-banner-desktop.jpg') ?>">
+    <link rel="preload" as="image" media="(max-width: 600px)" href="<?= get_webp('/assets/fb/banner.jpg') ?>">
+    <link rel="preload" as="image" media="(min-width: 600.1px)" href="<?= get_webp('/assets/fb/banner-desktop.jpg') ?>">
     <?php get_preload_style('https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.min.css'); ?>
     <link rel="icon" type="image/x-icon" href="/assets/ico-favicon.svg">
     <style>
@@ -34,8 +32,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
     <section class="fb">
         <div class="container">
             <picture>
-                <?php get_pic_source_mq(src: 'fb/lead-banner-desktop.jpg', bp: '600px', retina: false); ?>
-                <?php get_img(src: 'fb/lead-banner-mobile.jpg', alt: 'dentfix turkey team', retina: false); ?>
+                <?php get_pic_source_mq(src: 'fb/banner-desktop.jpg', bp: '600px', retina: false); ?>
+                <?php get_img(src: 'fb/banner.jpg', alt: 'dentfix turkey team', retina: false); ?>
             </picture>
             <div id="contact" class="form-box">
                 <h2 class="section-title"><?= TR['form_title'] ?></h2>
