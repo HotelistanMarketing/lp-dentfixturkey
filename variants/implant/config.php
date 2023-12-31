@@ -2,5 +2,5 @@
 
 const VARIANT = 'implant';
 const LANG_CODE = 'en';
-const LEAD_LANGUAGE = 'English';
+const LEAD_LANGUAGE = Lead\Language\English;
 const LEAD_SOURCE = 'Dentfix/Google/EN/Implant';

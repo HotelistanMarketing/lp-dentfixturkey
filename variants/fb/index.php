@@ -2,10 +2,10 @@
 header('Expires: ' . gmdate('r', time() + (60 * 60))); // 1 hour
 ob_start("ob_gzhandler");
 
+include $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 include 'config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/i18n/implant-' . LANG_CODE . '.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/commons/i18n/commons-' . LANG_CODE . '.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/commons/functions.php';
+include get_localization('implant', LANG_CODE);
+include get_localization('commons', LANG_CODE, common: true);
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 ?>
@@ -18,7 +18,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
     <?php get_google_font('Roboto', display: 'swap') ?>
     <link rel="preload" as="image" media="(max-width: 600px)" href="<?= get_webp('/assets/fb/banner.jpg') ?>">
     <link rel="preload" as="image" media="(min-width: 600.1px)" href="<?= get_webp('/assets/fb/banner-desktop.jpg') ?>">
-    <?php get_preload_style('https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.min.css'); ?>
+    <?php get_preload_style('/commons/styles/intl-tel-input.min.css'); ?>
     <link rel="icon" type="image/x-icon" href="/assets/ico-favicon.svg">
     <style>
         <?php include($_SERVER['DOCUMENT_ROOT'] . '/variants/fb/critic.css') ?>
@@ -44,7 +44,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
     </section>
 </main>
 <script src="/scripts/fb.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
 <?php get_form_analytics_script(FORM_ANAL_RID); ?>
 </body>
 </html>

@@ -2,8 +2,8 @@
 header('Expires: ' . gmdate('r', time() + (60 * 60))); // 1 hour
 ob_start("ob_gzhandler");
 
+include $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 include 'config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/commons/functions.php';
 include get_localization('implant', LANG_CODE);
 include get_localization('commons', LANG_CODE, common: true);
 include $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
