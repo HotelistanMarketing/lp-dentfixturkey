@@ -1,4 +1,5 @@
 <?php
+const DR_NAME = 'dentfix';
 
 const EMAIL = 'info@dentfixturkey.com';
 const ADDRESS = '19 Mayıs Mah. Etfal Hastanesi Sok.<br>Kent Apt. No: 2/78 <strong>Şişli / İstanbul</strong>';

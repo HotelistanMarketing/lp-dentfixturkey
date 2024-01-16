@@ -14,4 +14,5 @@
 
     <?php include get_script('gtm.php', common: true) ?>
     <?php include get_script('hotjar.php', common: true) ?>
+    <?php include get_script('logs.php', common: true) ?>
 </head>
