@@ -24,7 +24,7 @@ const TR = array(
     "hero_title" => "Klinika dentystyczna <span>w Turcji</span>",
     "hero_title_mobile" => "Klinika dentystyczna </br> <span>w Turcji</span>",
     "hero_subtitle" => "Popraw swój uśmiech <br> dzięki niewygórowanym cenowo usługom Dentfix Turcja",
-    "hero_button" => "Uzyskaj najlepsze rozwiązanie stomatologiczn",
+    "hero_button" => "Uzyskaj najlepsze rozwiązanie stomatologiczne",
     "hero_org_title" => "Our Reliable Brands",
 
     // FORM
