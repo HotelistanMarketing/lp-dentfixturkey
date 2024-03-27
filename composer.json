@@ -12,7 +12,7 @@
      },
      "extra": {
           "installer-types": [
-               "library"
+               "custom-library"
           ],
           "installer-paths": {
                "{$name}": [
