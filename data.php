@@ -20,6 +20,7 @@ const HOTJAR_ID = '3703079';
 
 const LEAD_INTEREST = Lead\Interest\Dental;
 const LEAD_PROCEDURE = Lead\Procedure\Implant;
+const LEAD_DR = 'Dentfix Turkey';
 
 const FORM_NAME = 'WebToLeads4841144000107484302';
 const FORM_THANK_YOU_PAGE = 'https://dentfixturkey.com/thank-you';
