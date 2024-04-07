@@ -30,7 +30,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
     </main>
     <?php include get_template('footer.php') ?>
     <?php include get_template('whatsapp-fab.php', common: true) ?>
-    <?php include get_template('wp-form.php', common: true) ?>
     <?php include get_template('body-end.php') ?>
 </body>
 
