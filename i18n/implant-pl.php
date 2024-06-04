@@ -5,7 +5,7 @@ const TR = array(
     "page_keywords" => "Klinika dentystyczna, turkey, veneers, crowns, hollywood smile, restorative dentistry",
     "page_description" => "Nasz doświadczony zespół dentystów oferuje szeroki zakres usług dla pięknego i zdrowego uśmiechu. Umów się na wizytę już dziś i doświadcz wyjątkowej opieki stomatologicznej w Tureckiej Klinice Dentystycznej DentfixTurcja.",
 
-    "whatsapp_main_keyword" => "dental implant",
+    "whatsapp_main_keyword" => "implant dentystyczny",
 
     // HEADER
     "nav_menu" => array(
