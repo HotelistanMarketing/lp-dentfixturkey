@@ -1,0 +1,43 @@
+name: Deploy to server
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH and Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
+          script: |
+            REPO_DIR="lp-dentfixturkey"
+            REPO_URL="git@github.com:HotelistanMarketing/lp-dentfixturkey.git"
+            PRIVATE_KEY_FILE="$(mktemp -d)/pkf"
+            
+            echo "${{ secrets.SSH_DEPLOY_PK }}" > "$PRIVATE_KEY_FILE"
+            chmod 600 $PRIVATE_KEY_FILE
+            eval "$(ssh-agent -s)"
+            
+            expect -c "
+            spawn ssh-add $PRIVATE_KEY_FILE
+            expect \"Enter passphrase for $PRIVATE_KEY_FILE:\"
+            send \"${{ secrets.SSH_DEPLOY_PK_PASSPHRASE }}\n\"
+            expect eof
+            "
+            
+            rm "$PRIVATE_KEY_FILE"
+            
+            if [ ! -d "$REPO_DIR/.git" ]; then
+                git clone "$REPO_URL" "$REPO_DIR"
+            fi
+            
+            cd "$REPO_DIR" || { echo 'Unable to change directory'; exit 1; }
+            git fetch 2>&1
+            git reset --hard origin/main
