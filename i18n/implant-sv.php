@@ -1,9 +1,9 @@
 <?php
 
 const TR = array(
-    "page_title" => "Turkiet tandklinik i Istanbul | DentfixTurkiet",
+    "page_title" => "Turkiet tandklinik i Istanbul | Nova VitaTurkiet",
     "page_keywords" => "tandvårdsklinik, turkiet, fasad, kronor, hollywood smile, restaurerande tandvård",
-    "page_description" => "Vårt expertteam av tandläkare erbjuder ett brett utbud av tjänster för ett vackert och hälsosamt leende. Schemalägg ditt möte idag och upplev exceptionell tandvård på Turkey Dental Teeth Clinic - DentfixTurkey.",
+    "page_description" => "Vårt expertteam av tandläkare erbjuder ett brett utbud av tjänster för ett vackert och hälsosamt leende. Schemalägg ditt möte idag och upplev exceptionell tandvård på Turkey Dental Teeth Clinic - Nova VitaTurkey.",
 
     "whatsapp_main_keyword" => "tandimplantat",
 
@@ -23,12 +23,12 @@ const TR = array(
     // HERO
     "hero_title" => "Tandklinik <span>i Turkiet</span>",
     "hero_title_mobile" => "Tandkliniken <br><span>i Turkiet</span>",
-    "hero_subtitle" => "Förbättra ditt leende<br>med Dentfix Turkiets prisvärda tjänster",
+    "hero_subtitle" => "Förbättra ditt leende<br>med Nova Vita Turkiets prisvärda tjänster",
     "hero_button" => "Få den bästa tandvårdslösningen",
     "hero_org_title" => "Våra tillförlitliga varumärken",
 
     // FORM
-    "form_title" => "Omforma ditt vackra leende med Dentfix",
+    "form_title" => "Omforma ditt vackra leende med Nova Vita",
     "form_description" => "Fyll i formuläret och låt våra experter att snabbt ta itu med alla frågor du kan ha.",
     "form_button" => "Skynda dig! Få en kostnadsfri offert",
 
@@ -101,11 +101,11 @@ const TR = array(
     "hospital_title" => "Upptäck vår klinik med bilder",
 
     // PACKAGE
-    "package_title" => "Dentfix Service Detalj-Innehåll",
+    "package_title" => "Nova Vita Service Detalj-Innehåll",
     "package_button" => "Få prisinformation",
     "package_details" => array(
         ["Allt i ett paket",
-            "Upptäck Dentfixs hela utbud av tandvårdstjänster, inklusive restaureringar, procedurer och lösningar utformade för att passa alla dina tandvårdsbehov."],
+            "Upptäck Nova Vitas hela utbud av tandvårdstjänster, inklusive restaureringar, procedurer och lösningar utformade för att passa alla dina tandvårdsbehov."],
         ["Schemalägg en konsultation",
             "Ta kontakt med oss idag för att utforska de behandlingsalternativ som är skräddarsydda för att hjälpa dig att uppnå ett levande och fantastiskt leende som utstrålar både hälsa och skönhet."],
         ["Flygplatstransfer",
@@ -125,7 +125,7 @@ const TR = array(
     "faq_title" => "Vanliga Frågor (FAQ)",
     "faq" => array(
         ["Är implantatets märke viktigt? Har implantatet kvalitet?",
-            "För våra tandingrepp använder Dentfix Turkey endast premiumprodukter som Ivoclar Vivadent, Straumann och Nobel Biocare Implant. Dessa produkter är välkända för sin excellens, vilket säkerställer långvariga och fördelaktiga resultat för våra patienter. Vårt engagemang för att leverera den finaste kalibern av tandvård återspeglas i vårt engagemang för dessa toppmärken. Du kan konsultera European Journal of Dentistry, en ansedd källa för dental forskning, för ytterligare information."],
+            "För våra tandingrepp använder Nova Vita Clinic endast premiumprodukter som Ivoclar Vivadent, Straumann och Nobel Biocare Implant. Dessa produkter är välkända för sin excellens, vilket säkerställer långvariga och fördelaktiga resultat för våra patienter. Vårt engagemang för att leverera den finaste kalibern av tandvård återspeglas i vårt engagemang för dessa toppmärken. Du kan konsultera European Journal of Dentistry, en ansedd källa för dental forskning, för ytterligare information."],
         ["Hur länge håller ett Hollywood-leende?",
             "Varaktigheten av ett Hollywood-leende bestäms av hållbarheten hos de tandimplantat, kronor eller fasader som används. Porslinsfabriker kan hålla i över 20 år, medan kompositfasader håller i cirka 10 år."],
         ["Hur länge håller tandfasader?",
@@ -140,5 +140,5 @@ const TR = array(
 
     // FOOTER
     "footer_social_title" => "Våra sociala medier",
-    "footer_copyright" => "Alla rättigheter reserverade ©️ %s - Dentfix",
+    "footer_copyright" => "Alla rättigheter reserverade ©️ %s - Nova Vita",
 );

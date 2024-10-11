@@ -1,9 +1,9 @@
 <?php
 
 const TR = array(
-    "page_title" => "Turchia Clinica dentale a Istanbul | DentfixTurkey",
+    "page_title" => "Turchia Clinica dentale a Istanbul | Nova VitaTurkey",
     "page_keywords" => "clinica dentale, Turchia, faccette, corone, hollywood smile, odontoiatria restaurativa",
-    "page_description" => "Il nostro team di dentisti esperti offre una vasta gamma di servizi per un sorriso bello e sano. Prenota il tuo appuntamento oggi e scopri cure odontoiatriche eccezionali presso la clinica dentale in Turchia - DentfixTurkey.",
+    "page_description" => "Il nostro team di dentisti esperti offre una vasta gamma di servizi per un sorriso bello e sano. Prenota il tuo appuntamento oggi e scopri cure odontoiatriche eccezionali presso la clinica dentale in Turchia - Nova VitaTurkey.",
 
     "whatsapp_main_keyword" => "impianto dentale",
 
@@ -23,17 +23,17 @@ const TR = array(
     // HERO
     "hero_title" => "Clinica dentale <span>in Turchia</span>",
     "hero_title_mobile" => "Clinica dentale<br><span>in Turchia</span>",
-    "hero_subtitle" => "Migliora il tuo sorriso<br>con i servizi accessibili di Dentfix Turkey",
+    "hero_subtitle" => "Migliora il tuo sorriso<br>con i servizi accessibili di Nova Vita Clinic",
     "hero_button" => "Ottieni la migliore soluzione dentale",
     "hero_org_title" => "I nostri marchi affidabili",
 
     // FORM
-    "form_title" => "Modifica il tuo bel sorriso con Dentfix",
+    "form_title" => "Modifica il tuo bel sorriso con Nova Vita",
     "form_description" => "Completa il modulo e consenti ai nostri esperti di rispondere subito a tutte le tue domande.",
     "form_button" => "Sbrigati! Ottieni subito un preventivo gratuito",
 
     // WHY CHOOSE
-    "why_title" => "Perché scegliere Dentfix?",
+    "why_title" => "Perché scegliere Nova Vita?",
     "why" => array(
         "Tecnologia <strong>all'avanguardia</strong>",
         "Servizi <strong>All In One</strong>",
@@ -101,11 +101,11 @@ const TR = array(
     "hospital_title" => "Scopri la nostra clinica con le foto",
 
     // PACKAGE
-    "package_title" => "Contenuto dei dettagli del servizio Dentfix",
+    "package_title" => "Contenuto dei dettagli del servizio Nova Vita",
     "package_button" => "Ottieni informazioni sui prezzi",
     "package_details" => array(
         ["Pacchetti all-in-one",
-            "Scopri la gamma completa dei servizi odontoiatrici di Dentfix, tra cui restauri, procedure e soluzioni pensate per soddisfare tutte le tue esigenze odontoiatriche."],
+            "Scopri la gamma completa dei servizi odontoiatrici di Nova Vita, tra cui restauri, procedure e soluzioni pensate per soddisfare tutte le tue esigenze odontoiatriche."],
         ["Pianifica una consultazione",
             "Mettiti subito in contatto con noi per scoprire le opzioni di trattamento su misura, per aiutarti a raggiungere un sorriso vibrante e mozzafiato che irradia sia salute che bellezza."],
         ["Trasferimento da/per aeroporto",
@@ -125,7 +125,7 @@ const TR = array(
     "faq_title" => "FAQ",
     "faq" => array(
         ["Il marchio dell'impianto è importante? L'impianto ha qualità?",
-            "Per le nostre procedure odontoiatriche, Dentfix Turkey utilizza solo prodotti premium come Ivoclar Vivadent, Straumann, e Nobel Biocare Implant. Questi prodotti sono noti per la loro eccellenza, garantendo risultati duraturi e benefici per i nostri pazienti. La nostra dedizione a fornire il miglior calibro di cure odontoiatriche si riflette nel nostro impegno nei confronti di queste ottime marche. Per ulteriori informazioni, puoi consultare la European Journal of Dentistry, una fonte affidabile per la ricerca odontoiatrica."],
+            "Per le nostre procedure odontoiatriche, Nova Vita Clinic utilizza solo prodotti premium come Ivoclar Vivadent, Straumann, e Nobel Biocare Implant. Questi prodotti sono noti per la loro eccellenza, garantendo risultati duraturi e benefici per i nostri pazienti. La nostra dedizione a fornire il miglior calibro di cure odontoiatriche si riflette nel nostro impegno nei confronti di queste ottime marche. Per ulteriori informazioni, puoi consultare la European Journal of Dentistry, una fonte affidabile per la ricerca odontoiatrica."],
         ["Quanto dura l'Hollywood smile?",
             "La durata di un Hollywood smile è determinata dalla durata degli impianti dentali, delle corone o delle faccette utilizzate. Le faccette in porcellana possono durare oltre 20 anni, mentre le faccette composite durano circa 10 anni."],
         ["Quanto durano le faccette dentali?",
@@ -140,5 +140,5 @@ const TR = array(
 
     // FOOTER
     "footer_social_title" => "I nostri social media",
-    "footer_copyright" => "Tutti i diritti riservati ©️ %s - Dentfix",
+    "footer_copyright" => "Tutti i diritti riservati ©️ %s - Nova Vita",
 );

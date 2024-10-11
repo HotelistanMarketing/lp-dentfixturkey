@@ -1,9 +1,9 @@
 <?php
 
 const TR = array(
-    "page_title" => "Turkey Dental Clinic in Istanbul | DentfixTurkey",
+    "page_title" => "Turkey Dental Clinic in Istanbul | Nova VitaTurkey",
     "page_keywords" => "dental clinic, turkey, veneers, crowns, hollywood smile, restorative dentistry",
-    "page_description" => "Our expert team of dentists offers a wide range of services for a beautiful and healthy smile. Schedule your appointment today and experience exceptional dental care at Turkey Dental Teeth Clinic - DentfixTurkey.",
+    "page_description" => "Our expert team of dentists offers a wide range of services for a beautiful and healthy smile. Schedule your appointment today and experience exceptional dental care at Turkey Dental Teeth Clinic - Nova VitaTurkey.",
 
     "whatsapp_main_keyword" => "dental implant",
 
@@ -23,12 +23,12 @@ const TR = array(
     // HERO
     "hero_title" => "Dental Clinic <span>in Turkey</span>",
     "hero_title_mobile" => "Dental Clinic <br><span>in Turkey</span>",
-    "hero_subtitle" => "Enhance Your Smile<br>with Dentfix Turkey’s Affordable Services",
+    "hero_subtitle" => "Enhance Your Smile<br>with Nova Vita Clinic’s Affordable Services",
     "hero_button" => "Get the Best Dental Solution",
     "hero_org_title" => "Our Reliable Brands",
 
     // FORM
-    "form_title" => "Reshape Your Beautiful Smile with Dentfix",
+    "form_title" => "Reshape Your Beautiful Smile with Nova Vita",
     "form_description" => "Complete the form and allow our experts to promptly address any questions you may have.",
     "form_button" => "Hurry Up! Get A Free Quote",
 
@@ -101,11 +101,11 @@ const TR = array(
     "hospital_title" => "Discover Our Clinic with Photos",
 
     // PACKAGE
-    "package_title" => "Dentfix Service Details Content",
+    "package_title" => "Nova Vita Service Details Content",
     "package_button" => "Get Price Information",
     "package_details" => array(
         ["All In One Packages",
-            "Discover Dentfix’s full range of dental services, including restorations, procedures, and solutions designed to suit all of your dental requirements."],
+            "Discover Nova Vita’s full range of dental services, including restorations, procedures, and solutions designed to suit all of your dental requirements."],
         ["Schedule A Consultation",
             "Get in touch with us today to explore the treatment options tailored to help you attain a vibrant and stunning smile that radiates both health and beauty."],
         ["Airport Transfer",
@@ -125,7 +125,7 @@ const TR = array(
     "faq_title" => "Frequently Asked Questions",
     "faq" => array(
         ["Is the brand of the implant important? Does the implant have quality?",
-            "For our dental procedures, Dentfix Turkey only utilizes premium products like Ivoclar Vivadent, Straumann, and Nobel Biocare Implant. These products are well-known for their excellence, ensuring long-lasting and beneficial results for our patients. Our dedication to delivering the finest caliber of dental care is reflected in our commitment to these top brands. You might consult the European Journal of Dentistry, a reputable source for dental research, for additional information."],
+            "For our dental procedures, Nova Vita Clinic only utilizes premium products like Ivoclar Vivadent, Straumann, and Nobel Biocare Implant. These products are well-known for their excellence, ensuring long-lasting and beneficial results for our patients. Our dedication to delivering the finest caliber of dental care is reflected in our commitment to these top brands. You might consult the European Journal of Dentistry, a reputable source for dental research, for additional information."],
         ["How long does Hollywood smile last?",
             "The duration of a Hollywood smile is determined by the durability of the dental implants, crowns, or veneers used. Porcelain veneers can last over 20 years, while composite veneers last approximately 10 years."],
         ["How long does dental veneer last?",
@@ -140,5 +140,5 @@ const TR = array(
 
     // FOOTER
     "footer_social_title" => "Our Social Media",
-    "footer_copyright" => "All rights reserved © %s - Dentfix",
+    "footer_copyright" => "All rights reserved © %s - Nova Vita",
 );

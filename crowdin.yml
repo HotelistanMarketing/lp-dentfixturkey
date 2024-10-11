@@ -7,9 +7,9 @@
 files: [
   {
     "source": "implant-en.php",
-    "dest": "dentfix-implant.php",
-    "translation": "/dentfix-implant-%two_letters_code%.php",
-    "translation_replace": { "dentfix-": "" },
+    "dest": "Nova Vita-implant.php",
+    "translation": "/Nova Vita-implant-%two_letters_code%.php",
+    "translation_replace": { "Nova Vita-": "" },
     "excluded_target_languages": [ "es-ES" ],
 
     #

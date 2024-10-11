@@ -32,7 +32,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
         <div class="container">
             <picture>
                 <?php get_pic_source_mq(src: 'fb/banner-desktop.jpg', bp: '600px', retina: false); ?>
-                <?php get_img(src: 'fb/banner.jpg', alt: 'dentfix turkey team', retina: false); ?>
+                <?php get_img(src: 'fb/banner.jpg', alt: 'Nova Vita Clinic team', retina: false); ?>
             </picture>
             <div id="contact" class="form-box">
                 <h2 class="section-title"><?= TR['form_title'] ?></h2>

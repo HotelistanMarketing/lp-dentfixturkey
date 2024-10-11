@@ -1,9 +1,9 @@
 <?php
 
 const TR = array(
-    "page_title" => "Zahnklinik Türkei in Istanbul | DentfixTürkei",
+    "page_title" => "Zahnklinik Türkei in Istanbul | Nova VitaTürkei",
     "page_keywords" => "Zahnklinik, Türkei, Veneers, Kronen, Hollywood-Lächeln, restaurative Zahnheilkunde",
-    "page_description" => "Unser erfahrenes Team von Zahnärzten bietet Ihnen eine breite Palette von Dienstleistungen für ein schönes und gesundes Lächeln an. Vereinbaren Sie noch heute Ihren Termin und erleben Sie außergewöhnliche Zahnversorgung in der Türkei Dental Zahnklinik - DentfixTürkei",
+    "page_description" => "Unser erfahrenes Team von Zahnärzten bietet Ihnen eine breite Palette von Dienstleistungen für ein schönes und gesundes Lächeln an. Vereinbaren Sie noch heute Ihren Termin und erleben Sie außergewöhnliche Zahnversorgung in der Türkei Dental Zahnklinik - Nova VitaTürkei",
 
     "whatsapp_main_keyword" => "Zahnimplantat",
 
@@ -23,12 +23,12 @@ const TR = array(
     // HERO
     "hero_title" => "Zahnklinik <span>in der Türkei</span>",
     "hero_title_mobile" => "Zahnklinik <br><span>in der Türkei</span>",
-    "hero_subtitle" => "Verbessern Sie Ihr Lächeln mit den<br> erschwinglichen Dienstleistungen von Dentfix Türkei",
+    "hero_subtitle" => "Verbessern Sie Ihr Lächeln mit den<br> erschwinglichen Dienstleistungen von Nova Vita Türkei",
     "hero_button" => "Holen Sie sich die beste Dentallösung",
     "hero_org_title" => "Unsere zuverlässigen Marken",
 
     // FORM
-    "form_title" => "Verbessern Sie Ihr schönes Lächeln mit Dentfix",
+    "form_title" => "Verbessern Sie Ihr schönes Lächeln mit Nova Vita",
     "form_description" => "Bitte füllen Sie das Formular aus und erlauben Sie unseren Experten, umgehend auf eventuelle Fragen einzugehen, die Sie haben könnten.",
     "form_button" => "Beeilen Sie sich! Holen Sie sich ein kostenloses Angebot",
 
@@ -101,11 +101,11 @@ const TR = array(
     "hospital_title" => "Entdecken Sie unsere Klinik mit Fotos",
 
     // PACKAGE
-    "package_title" => "Inhalte zu den Details der Dentfix-Dienstleistungen",
+    "package_title" => "Inhalte zu den Details der Nova Vita-Dienstleistungen",
     "package_button" => "Erhalten Sie Preisinformationen",
     "package_details" => array(
         ["All-In-One-Pakete",
-            "Entdecken Sie das umfangreiche Angebot an zahnärztlichen Dienstleistungen von Dentfix, einschließlich Restaurationen, Verfahren und Lösungen, die alle Ihre zahnärztlichen Bedürfnisse erfüllen sollen."],
+            "Entdecken Sie das umfangreiche Angebot an zahnärztlichen Dienstleistungen von Nova Vita, einschließlich Restaurationen, Verfahren und Lösungen, die alle Ihre zahnärztlichen Bedürfnisse erfüllen sollen."],
         ["Vereinbaren Sie eine Beratung",
             "Nehmen Sie noch heute Kontakt mit uns auf, um die auf Sie zugeschnittenen Behandlungsoptionen zu erkunden, die Ihnen helfen sollen, ein lebendiges und beeindruckendes Lächeln zu erreichen, das sowohl Gesundheit als auch Schönheit ausstrahlt."],
         ["Flughafentransfer",
@@ -125,7 +125,7 @@ const TR = array(
     "faq_title" => "Häufig gestellte Fragen",
     "faq" => array(
         ["Ist die Marke des Implantats wichtig? Hat das Implantat Qualität?",
-            "Für unsere zahnärztlichen Eingriffe verwendet Dentfix Türkei ausschließlich hochwertige Produkte wie Ivoclar Vivadent, Straumann und Nobel Biocare Implantate. Diese Produkte sind bekannt für ihre Exzellenz und gewährleisten langanhaltende und vorteilhafte Ergebnisse für unsere Patienten. Unsere Hingabe, die höchste Qualität zahnärztlicher Versorgung zu bieten, spiegelt sich in unserem Engagement für diese Top-Marken wider. Sie können zur weiteren Information die European Journal of Dentistry konsultieren, eine angesehene Quelle für zahnmedizinische Forschung."],
+            "Für unsere zahnärztlichen Eingriffe verwendet Nova Vita Türkei ausschließlich hochwertige Produkte wie Ivoclar Vivadent, Straumann und Nobel Biocare Implantate. Diese Produkte sind bekannt für ihre Exzellenz und gewährleisten langanhaltende und vorteilhafte Ergebnisse für unsere Patienten. Unsere Hingabe, die höchste Qualität zahnärztlicher Versorgung zu bieten, spiegelt sich in unserem Engagement für diese Top-Marken wider. Sie können zur weiteren Information die European Journal of Dentistry konsultieren, eine angesehene Quelle für zahnmedizinische Forschung."],
         ["Wie lange hält ein Hollywood-Lächeln?",
             "Die Dauer eines Hollywood-Lächelns wird durch die Haltbarkeit der verwendeten Zahnimplantate, Kronen oder Veneers bestimmt. Porzellanvasen können über 20 Jahre halten, während Composite-Veneers etwa 10 Jahre halten."],
         ["Wie lange hält eine Zahnverblendung (Veneer)?",
@@ -140,5 +140,5 @@ const TR = array(
 
     // FOOTER
     "footer_social_title" => "Unsere Social-Media-Kanäle",
-    "footer_copyright" => "Alle Rechte vorbehalten ©️ %s - Dentfix",
+    "footer_copyright" => "Alle Rechte vorbehalten ©️ %s - Nova Vita",
 );

@@ -1,9 +1,9 @@
 <?php
 
 const TR = array(
-    "page_title" => "Clinique dentaire à Istanbul | DentfixTurquie",
+    "page_title" => "Clinique dentaire à Istanbul | Nova VitaTurquie",
     "page_keywords" => "clinique dentaire, dinde, facettes, couronnes, sourire hollywoodien, dentisterie réparatrice",
-    "page_description" => "Notre équipe d'experts dentistes offre une large gamme de services pour un sourire beau et sain. Prenez rendez-vous dès aujourd'hui et profitez d'une prise en charge dentaire exceptionnelle à la clinique dentaire DentfixTurkey en Turquie.",
+    "page_description" => "Notre équipe d'experts dentistes offre une large gamme de services pour un sourire beau et sain. Prenez rendez-vous dès aujourd'hui et profitez d'une prise en charge dentaire exceptionnelle à la clinique dentaire Nova VitaTurkey en Turquie.",
 
     "whatsapp_main_keyword" => "implant dentaire",
 
@@ -23,12 +23,12 @@ const TR = array(
     // HERO
     "hero_title" => "Clinique dentaire en Turquie",
     "hero_title_mobile" => "Clinique Dentaire en Turquie",
-    "hero_subtitle" => "Sublimez votre sourire avec les services <br>abordables de Dentfix Turquie",
+    "hero_subtitle" => "Sublimez votre sourire avec les services <br>abordables de Nova Vita Turquie",
     "hero_button" => "Obtenez la meilleure solution dentaire",
     "hero_org_title" => "Nos marques de qualité",
 
     // FORM
-    "form_title" => "Rendez votre beau sourire plus radieux avec Dentfix",
+    "form_title" => "Rendez votre beau sourire plus radieux avec Nova Vita",
     "form_description" => "Remplissez le formulaire et permettez à nos experts de répondre rapidement à toutes vos questions.",
     "form_button" => "Ne tardez pas ! Obtenez un devis gratuit dès aujourd'hui !",
 
@@ -101,11 +101,11 @@ const TR = array(
     "hospital_title" => "Découvrez notre Clinique avec Photos",
 
     // PACKAGE
-    "package_title" => "Informations sur les services Dentfix",
+    "package_title" => "Informations sur les services Nova Vita",
     "package_button" => "Obtenir des informations sur le prix",
     "package_details" => array(
         ["Tout en un Seul Package",
-            "Découvrez la gamme complète des services dentaires de Dentfix, y compris les restaurations, les procédures et les solutions conçues pour répondre à tous vos besoins dentaires."],
+            "Découvrez la gamme complète des services dentaires de Nova Vita, y compris les restaurations, les procédures et les solutions conçues pour répondre à tous vos besoins dentaires."],
         ["Planifier une Consultation",
             "Prenez contact avec nous dès aujourd'hui pour explorer les options de traitement adaptées à vos besoins et vous aider à obtenir un sourire vibrant et magnifique qui rayonne à la fois santé et beauté."],
         ["Transfert de l'Aéroport",
@@ -125,7 +125,7 @@ const TR = array(
     "faq_title" => "Foire aux questions",
     "faq" => array(
         ["La marque de l'implant est-elle importante ? L'implant a-t-il de la qualité ?",
-            "Pour nos procédures dentaires, Dentfix Turquie n'utilise que des produits premium tels que Ivoclar Vivadent, Straumann et Nobel Biocare Implant. Ces produits sont réputés pour leur excellence, garantissant des résultats durables et bénéfiques pour nos patients. Notre engagement à fournir les meilleurs soins dentaires est reflété par notre engagement envers ces grandes marques. Pour plus d'informations, vous pouvez consulter le Journal européen de dentisterie, une source réputée de recherche dentaire."],
+            "Pour nos procédures dentaires, Nova Vita Turquie n'utilise que des produits premium tels que Ivoclar Vivadent, Straumann et Nobel Biocare Implant. Ces produits sont réputés pour leur excellence, garantissant des résultats durables et bénéfiques pour nos patients. Notre engagement à fournir les meilleurs soins dentaires est reflété par notre engagement envers ces grandes marques. Pour plus d'informations, vous pouvez consulter le Journal européen de dentisterie, une source réputée de recherche dentaire."],
         ["Combien de temps dure le Hollywood Smile ?",
             "La durée du Hollywood Smile est déterminée par la durabilité des implants, des couronnes ou des facettes utilisés. Les facettes en porcelaine peuvent durer plus de 20 ans, tandis que facettes composites durent environ 10 ans."],
         ["Combien de temps dure la facette dentaire?",
@@ -140,5 +140,5 @@ const TR = array(
 
     // FOOTER
     "footer_social_title" => "Nos réseaux sociaux",
-    "footer_copyright" => "Tous droits réservés ©️ %s - Dentfix",
+    "footer_copyright" => "Tous droits réservés ©️ %s - Nova Vita",
 );

@@ -1,8 +1,8 @@
 <?php
 const DR_NAME = 'dentfix';
 
-const EMAIL = 'info@dentfixturkey.com';
-const ADDRESS = '19 Mayıs Mah. Etfal Hastanesi Sok.<br>Kent Apt. No: 2/78 <strong>Şişli / İstanbul</strong>';
+const EMAIL = 'info@novavita.clinic';
+const ADDRESS = '<strong>Şişli / İstanbul</strong>';
 const MAP_URL = 'https://maps.app.goo.gl/meTo2wcQNwjxLsjG8';
 const FACEBOOK_LINK = 'https://www.facebook.com/people/Denfix-Clinic/100088026948190/';
 const INSTAGRAM_LINK = 'https://www.instagram.com/dentfix.turkey/';
@@ -22,4 +22,4 @@ const LEAD_INTEREST = Lead\Interest\Dental;
 const LEAD_PROCEDURE = Lead\Procedure\Implant;
 const LEAD_DR = 'Dentfix Turkey';
 
-const FORM_RETURN_URL = 'https://dentfixturkey.com/thank-you';
+const FORM_RETURN_URL = 'https://novavita.clinic/thank-you';
