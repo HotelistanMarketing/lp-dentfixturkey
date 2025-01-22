@@ -1,7 +1,7 @@
 <?php
 const DR_NAME = 'dentfix';
 
-const EMAIL = 'info@novavita.clinic';
+const EMAIL = 'contact@dentfixturkey.com';
 const ADDRESS = '<strong>Şişli / İstanbul</strong>';
 const MAP_URL = 'https://maps.app.goo.gl/meTo2wcQNwjxLsjG8';
 const FACEBOOK_LINK = 'https://www.facebook.com/people/Denfix-Clinic/100088026948190/';
@@ -22,4 +22,4 @@ const LEAD_INTEREST = Lead\Interest\Dental;
 const LEAD_PROCEDURE = Lead\Procedure\Implant;
 const LEAD_DR = 'Dentfix Turkey';
 
-const FORM_RETURN_URL = 'https://novavita.clinic/thank-you';
+const FORM_RETURN_URL = 'https://www.dentfixturkey.com/thank-you/';

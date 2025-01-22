@@ -17,8 +17,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           script: |
-            REPO_DIR="lp-Nova Vitaturkey"
-            REPO_URL="git@github.com:HotelistanMarketing/lp-Nova Vitaturkey.git"
+            REPO_DIR="lp-Dentfixturkey"
+            REPO_URL="git@github.com:HotelistanMarketing/lp-Dentfixturkey.git"
             PRIVATE_KEY_FILE="$(mktemp -d)/pkf"
             
             echo "${{ secrets.SSH_DEPLOY_PK }}" > "$PRIVATE_KEY_FILE"

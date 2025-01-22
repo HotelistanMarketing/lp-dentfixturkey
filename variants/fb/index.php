@@ -12,6 +12,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 
 <!DOCTYPE HTML>
 <html lang="<?= LANG_CODE ?>">
+
 <head>
     <?php include get_template('meta.php', common: true) ?>
 
@@ -27,22 +28,23 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
 </head>
 
 <body class="preload">
-<main>
-    <section class="fb">
-        <div class="container">
-            <picture>
-                <?php get_pic_source_mq(src: 'fb/banner-desktop.jpg', bp: '600px', retina: false); ?>
-                <?php get_img(src: 'fb/banner.jpg', alt: 'Nova Vita Clinic team', retina: false); ?>
-            </picture>
-            <div id="contact" class="form-box">
-                <h2 class="section-title"><?= TR['form_title'] ?></h2>
-                <p><?= TR['form_description'] ?></p>
-                <?php include get_template('form.php', common: true) ?>
+    <main>
+        <section class="fb">
+            <div class="container">
+                <picture>
+                    <?php get_pic_source_mq(src: 'fb/banner-desktop.jpg', bp: '600px', retina: false); ?>
+                    <?php get_img(src: 'fb/banner.jpg', alt: 'Dentfix Clinic team', retina: false); ?>
+                </picture>
+                <div id="contact" class="form-box">
+                    <h2 class="section-title"><?= TR['form_title'] ?></h2>
+                    <p><?= TR['form_description'] ?></p>
+                    <?php include get_template('form.php', common: true) ?>
+                </div>
             </div>
-        </div>
-    </section>
-</main>
-<script src="/scripts/fb.min.js" defer></script>
-<?php get_form_analytics_script(FORM_ANAL_RID); ?>
+        </section>
+    </main>
+    <script src="/scripts/fb.min.js" defer></script>
+    <?php get_form_analytics_script(FORM_ANAL_RID); ?>
 </body>
+
 </html>

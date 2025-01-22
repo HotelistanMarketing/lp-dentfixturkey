@@ -1,9 +1,9 @@
 <?php
 
 const TR = array(
-    "page_title" => "Zahnklinik Türkei in Istanbul | Nova VitaTürkei",
+    "page_title" => "Zahnklinik Türkei in Istanbul | DentfixTürkei",
     "page_keywords" => "Zahnklinik, Türkei, Veneers, Kronen, Hollywood-Lächeln, restaurative Zahnheilkunde",
-    "page_description" => "Unser erfahrenes Team von Zahnärzten bietet Ihnen eine breite Palette von Dienstleistungen für ein schönes und gesundes Lächeln an. Vereinbaren Sie noch heute Ihren Termin und erleben Sie außergewöhnliche Zahnversorgung in der Türkei Dental Zahnklinik - Nova VitaTürkei",
+    "page_description" => "Unser erfahrenes Team von Zahnärzten bietet Ihnen eine breite Palette von Dienstleistungen für ein schönes und gesundes Lächeln an. Vereinbaren Sie noch heute Ihren Termin und erleben Sie außergewöhnliche Zahnversorgung in der Türkei Dental Zahnklinik - DentfixTürkei",
 
     "whatsapp_main_keyword" => "Zahnimplantat",
 
@@ -23,12 +23,12 @@ const TR = array(
     // HERO
     "hero_title" => "Zahnklinik <span>in der Türkei</span>",
     "hero_title_mobile" => "Zahnklinik <br><span>in der Türkei</span>",
-    "hero_subtitle" => "Verbessern Sie Ihr Lächeln mit den<br> erschwinglichen Dienstleistungen von Nova Vita Türkei",
+    "hero_subtitle" => "Verbessern Sie Ihr Lächeln mit den<br> erschwinglichen Dienstleistungen von Dentfix Türkei",
     "hero_button" => "Holen Sie sich die beste Dentallösung",
     "hero_org_title" => "Unsere zuverlässigen Marken",
 
     // FORM
-    "form_title" => "Verbessern Sie Ihr schönes Lächeln mit Nova Vita",
+    "form_title" => "Verbessern Sie Ihr schönes Lächeln mit Dentfix",
     "form_description" => "Bitte füllen Sie das Formular aus und erlauben Sie unseren Experten, umgehend auf eventuelle Fragen einzugehen, die Sie haben könnten.",
     "form_button" => "Beeilen Sie sich! Holen Sie sich ein kostenloses Angebot",
 
@@ -55,14 +55,17 @@ const TR = array(
     "services_title" => "Schauen Sie sich unsere besonders empfohlenen Dentallösungen an",
     "service_card_button" => "Mehr Informationen erhalten",
     "services_details" => array(
-        ["Zahnimplantat",
+        [
+            "Zahnimplantat",
             "Unsere Zahnimplantatpakete:",
             "All-On-Four",
             "All-On-Six",
             "All-On-Eight",
             "Three-On-Six",
-            "Zahnimplantate im gesamten Mundbereich"],
-        ["Zahn-Veneers",
+            "Zahnimplantate im gesamten Mundbereich"
+        ],
+        [
+            "Zahn-Veneers",
             "Unsere Zahn-Veneer-Pakete:",
             "Komposit-Veneers",
             "Porzellan Veneers",
@@ -70,18 +73,25 @@ const TR = array(
             "Laminat-Veneers",
             "Veneers ohne Präparation",
             "Vollständiger Satz von Veneers",
-            "Zahnimplantate im gesamten Mundbereich"],
-        ["Zahnkronen",
+            "Zahnimplantate im gesamten Mundbereich"
+        ],
+        [
+            "Zahnkronen",
             "Unsere Zahn-Veneer-Pakete:",
             "Celtra-Kronen",
             "E-Max-Kronen",
             "Zirkonium-Kronen",
             "Porzellan-Kronen",
-            "Kompletter Satz von Kronen"],
-        ["Hollywood-Lächeln",
-            "Erleben Sie eine transformative Verschönerung Ihres Lächelns mit unseren fortschrittlichen Techniken und unserer Expertise.<br>Genießen Sie einen reibungslosen und komfortablen Erholungsprozess nach dem Hollywood-Lächeln Eingriff in der Türkei und sorgen Sie so für Ihr Wohlbefinden währenddessen."],
-        ["Restaurative Zahnheilkunde",
-            "Unabhängig davon, ob Sie Zahnimplantate, Kronen, Brücken oder andere restaurative Eingriffe benötigen, bieten wir umfassende Lösungen an, die natürliche Ergebnisse erzielen."],
+            "Kompletter Satz von Kronen"
+        ],
+        [
+            "Hollywood-Lächeln",
+            "Erleben Sie eine transformative Verschönerung Ihres Lächelns mit unseren fortschrittlichen Techniken und unserer Expertise.<br>Genießen Sie einen reibungslosen und komfortablen Erholungsprozess nach dem Hollywood-Lächeln Eingriff in der Türkei und sorgen Sie so für Ihr Wohlbefinden währenddessen."
+        ],
+        [
+            "Restaurative Zahnheilkunde",
+            "Unabhängig davon, ob Sie Zahnimplantate, Kronen, Brücken oder andere restaurative Eingriffe benötigen, bieten wir umfassende Lösungen an, die natürliche Ergebnisse erzielen."
+        ],
     ),
 
     // BEFORE AND AFTER
@@ -101,21 +111,33 @@ const TR = array(
     "hospital_title" => "Entdecken Sie unsere Klinik mit Fotos",
 
     // PACKAGE
-    "package_title" => "Inhalte zu den Details der Nova Vita-Dienstleistungen",
+    "package_title" => "Inhalte zu den Details der Dentfix-Dienstleistungen",
     "package_button" => "Erhalten Sie Preisinformationen",
     "package_details" => array(
-        ["All-In-One-Pakete",
-            "Entdecken Sie das umfangreiche Angebot an zahnärztlichen Dienstleistungen von Nova Vita, einschließlich Restaurationen, Verfahren und Lösungen, die alle Ihre zahnärztlichen Bedürfnisse erfüllen sollen."],
-        ["Vereinbaren Sie eine Beratung",
-            "Nehmen Sie noch heute Kontakt mit uns auf, um die auf Sie zugeschnittenen Behandlungsoptionen zu erkunden, die Ihnen helfen sollen, ein lebendiges und beeindruckendes Lächeln zu erreichen, das sowohl Gesundheit als auch Schönheit ausstrahlt."],
-        ["Flughafentransfer",
-            "Kommen Sie in Istanbul an und überlassen Sie uns die Logistik. Unser engagiertes Team kümmert sich um Ihre Abholung am Flughafen und Ihre örtlichen Transportbedürfnisse und bietet eine Flotte luxuriöser Minivans für Ihren Komfort und Ihre Bequemlichkeit."],
-        ["Unterkunft",
-            "Erleben Sie Exklusivität in unseren zentral gelegenen Hotels in Istanbul und unseren erstklassigen Partnerunterkünften. Entdecken Sie unvergleichliche Möglichkeiten für einen unvergesslichen Aufenthalt."],
-        ["Besichtigungstour",
-            "Entdecken Sie die fesselnde Schönheit der Türkei, einem wahrhaft bemerkenswerten Reiseziel. Maximieren Sie Ihre Erfahrung mit unseren geführten Touren und Übersetzungsdiensten, tauchen Sie ein in unvergessliche Momente."],
-        ["Nachsorge nach dem Eingriff",
-            "Die langfristigen Ergebnisse Ihres Eingriffs zu bewahren, hat für uns höchste Priorität. Nutzen Sie unsere postoperative Betreuung und Unterstützung, um dauerhafte gesunde Gewohnheiten zu etablieren."],
+        [
+            "All-In-One-Pakete",
+            "Entdecken Sie das umfangreiche Angebot an zahnärztlichen Dienstleistungen von Dentfix, einschließlich Restaurationen, Verfahren und Lösungen, die alle Ihre zahnärztlichen Bedürfnisse erfüllen sollen."
+        ],
+        [
+            "Vereinbaren Sie eine Beratung",
+            "Nehmen Sie noch heute Kontakt mit uns auf, um die auf Sie zugeschnittenen Behandlungsoptionen zu erkunden, die Ihnen helfen sollen, ein lebendiges und beeindruckendes Lächeln zu erreichen, das sowohl Gesundheit als auch Schönheit ausstrahlt."
+        ],
+        [
+            "Flughafentransfer",
+            "Kommen Sie in Istanbul an und überlassen Sie uns die Logistik. Unser engagiertes Team kümmert sich um Ihre Abholung am Flughafen und Ihre örtlichen Transportbedürfnisse und bietet eine Flotte luxuriöser Minivans für Ihren Komfort und Ihre Bequemlichkeit."
+        ],
+        [
+            "Unterkunft",
+            "Erleben Sie Exklusivität in unseren zentral gelegenen Hotels in Istanbul und unseren erstklassigen Partnerunterkünften. Entdecken Sie unvergleichliche Möglichkeiten für einen unvergesslichen Aufenthalt."
+        ],
+        [
+            "Besichtigungstour",
+            "Entdecken Sie die fesselnde Schönheit der Türkei, einem wahrhaft bemerkenswerten Reiseziel. Maximieren Sie Ihre Erfahrung mit unseren geführten Touren und Übersetzungsdiensten, tauchen Sie ein in unvergessliche Momente."
+        ],
+        [
+            "Nachsorge nach dem Eingriff",
+            "Die langfristigen Ergebnisse Ihres Eingriffs zu bewahren, hat für uns höchste Priorität. Nutzen Sie unsere postoperative Betreuung und Unterstützung, um dauerhafte gesunde Gewohnheiten zu etablieren."
+        ],
     ),
 
     // INFLUENCERS
@@ -124,21 +146,33 @@ const TR = array(
     // FAQ
     "faq_title" => "Häufig gestellte Fragen",
     "faq" => array(
-        ["Ist die Marke des Implantats wichtig? Hat das Implantat Qualität?",
-            "Für unsere zahnärztlichen Eingriffe verwendet Nova Vita Türkei ausschließlich hochwertige Produkte wie Ivoclar Vivadent, Straumann und Nobel Biocare Implantate. Diese Produkte sind bekannt für ihre Exzellenz und gewährleisten langanhaltende und vorteilhafte Ergebnisse für unsere Patienten. Unsere Hingabe, die höchste Qualität zahnärztlicher Versorgung zu bieten, spiegelt sich in unserem Engagement für diese Top-Marken wider. Sie können zur weiteren Information die European Journal of Dentistry konsultieren, eine angesehene Quelle für zahnmedizinische Forschung."],
-        ["Wie lange hält ein Hollywood-Lächeln?",
-            "Die Dauer eines Hollywood-Lächelns wird durch die Haltbarkeit der verwendeten Zahnimplantate, Kronen oder Veneers bestimmt. Porzellanvasen können über 20 Jahre halten, während Composite-Veneers etwa 10 Jahre halten."],
-        ["Wie lange hält eine Zahnverblendung (Veneer)?",
-            "Zahnverblendungen können eine lange Zeit überdauern, insbesondere wenn sie gut auf dem Zahnschmelz haften. Während Composite-Veneers normalerweise eine Lebensdauer von 7-10 Jahren haben, können robuste Porzellan-Veneers 20 Jahre oder sogar noch länger überstehen."],
-        ["Was macht eine Zahnkrone?",
-            "Eine Zahnkrone ist eine Kappe, die einem Zahn ähnelt und dazu verwendet werden kann, einen Zahn wiederherzustellen, der kariös, beschädigt, schwächer oder abgenutzt ist. Zudem können Zahnärzte wurzelbehandelte Zähne und Zahnimplantate mit Kronen abdecken. Kronen können eine Lebensdauer von fünf bis fünfzehn Jahren haben."],
-        ["Ist ein Implantat sehr schmerzhaft?",
-            "Während des Zahnimplantatverfahrens wird örtliche Betäubung verwendet, um die Nerven im Bereich des Implantats zu betäuben. Dadurch werden Sie keine Schmerzen spüren. Sie könnten etwas Druck verspüren, aber es sollte nicht unangenehm sein."],
-        ["Ist es schmerzhaft, eine Krone zu erhalten?",
-            "Die regelmäßige zahnärztliche Behandlung, eine Krone zu bekommen, kann bei einigen Menschen Nervosität auslösen, da sie Angst vor Unannehmlichkeiten haben. Allerdings wird Ihr Zahnarzt Ihren Mund vor Beginn jeder Behandlung betäuben, sodass der Eingriff nicht unangenehm sein sollte. Dies gilt für jeden Schritt des Verfahrens, angefangen von der ersten Terminvereinbarung bis zur abschließenden Anpassung."],
+        [
+            "Ist die Marke des Implantats wichtig? Hat das Implantat Qualität?",
+            "Für unsere zahnärztlichen Eingriffe verwendet Dentfix Türkei ausschließlich hochwertige Produkte wie Ivoclar Vivadent, Straumann und Nobel Biocare Implantate. Diese Produkte sind bekannt für ihre Exzellenz und gewährleisten langanhaltende und vorteilhafte Ergebnisse für unsere Patienten. Unsere Hingabe, die höchste Qualität zahnärztlicher Versorgung zu bieten, spiegelt sich in unserem Engagement für diese Top-Marken wider. Sie können zur weiteren Information die European Journal of Dentistry konsultieren, eine angesehene Quelle für zahnmedizinische Forschung."
+        ],
+        [
+            "Wie lange hält ein Hollywood-Lächeln?",
+            "Die Dauer eines Hollywood-Lächelns wird durch die Haltbarkeit der verwendeten Zahnimplantate, Kronen oder Veneers bestimmt. Porzellanvasen können über 20 Jahre halten, während Composite-Veneers etwa 10 Jahre halten."
+        ],
+        [
+            "Wie lange hält eine Zahnverblendung (Veneer)?",
+            "Zahnverblendungen können eine lange Zeit überdauern, insbesondere wenn sie gut auf dem Zahnschmelz haften. Während Composite-Veneers normalerweise eine Lebensdauer von 7-10 Jahren haben, können robuste Porzellan-Veneers 20 Jahre oder sogar noch länger überstehen."
+        ],
+        [
+            "Was macht eine Zahnkrone?",
+            "Eine Zahnkrone ist eine Kappe, die einem Zahn ähnelt und dazu verwendet werden kann, einen Zahn wiederherzustellen, der kariös, beschädigt, schwächer oder abgenutzt ist. Zudem können Zahnärzte wurzelbehandelte Zähne und Zahnimplantate mit Kronen abdecken. Kronen können eine Lebensdauer von fünf bis fünfzehn Jahren haben."
+        ],
+        [
+            "Ist ein Implantat sehr schmerzhaft?",
+            "Während des Zahnimplantatverfahrens wird örtliche Betäubung verwendet, um die Nerven im Bereich des Implantats zu betäuben. Dadurch werden Sie keine Schmerzen spüren. Sie könnten etwas Druck verspüren, aber es sollte nicht unangenehm sein."
+        ],
+        [
+            "Ist es schmerzhaft, eine Krone zu erhalten?",
+            "Die regelmäßige zahnärztliche Behandlung, eine Krone zu bekommen, kann bei einigen Menschen Nervosität auslösen, da sie Angst vor Unannehmlichkeiten haben. Allerdings wird Ihr Zahnarzt Ihren Mund vor Beginn jeder Behandlung betäuben, sodass der Eingriff nicht unangenehm sein sollte. Dies gilt für jeden Schritt des Verfahrens, angefangen von der ersten Terminvereinbarung bis zur abschließenden Anpassung."
+        ],
     ),
 
     // FOOTER
     "footer_social_title" => "Unsere Social-Media-Kanäle",
-    "footer_copyright" => "Alle Rechte vorbehalten ©️ %s - Nova Vita",
+    "footer_copyright" => "Alle Rechte vorbehalten ©️ %s - Dentfix",
 );
