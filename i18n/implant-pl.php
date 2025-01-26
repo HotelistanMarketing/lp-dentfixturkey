@@ -100,6 +100,32 @@ const TR = array(
 
     // TEAM
     "team_title" => "Nasz zespół",
+    "team_details" => array(
+        [
+            "Doc. Dr. Ayşe ATAY",
+            "/assets/dt-ayse.webp"
+        ],
+        [
+            "Spec. Dr. Suhan İNAL",
+            "/assets/dt-suhan.webp"
+        ],
+        [
+            "Spec. Dr. Siavash ABBASGHOLIZADEH",
+            "/assets/dt-siyavus.webp"
+        ],
+        [
+            "Spec. Dr. Siavash ABBASGHOLIZADEH",
+            "/assets/dt-siyavus.webp"
+        ],
+        [
+            "Dt. Ali BAYRAMOGLU",
+            "/assets/dt-ali.webp"
+        ],
+        [
+            "Büşra ABUSALİH",
+            "/assets/dt-busra.webp"
+        ]
+    ),
 
     // CALL TO ACTION
     "cta_title" => "Bezpłatna konsultacja online",

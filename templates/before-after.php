@@ -4,9 +4,9 @@
         <div id="ba-swiper" class="swiper">
             <div class="swiper-wrapper gallery">
                 <?php for ($i = 1; $i < 14; $i++): ?>
-                    <div class="swiper-slide">
-                        <?php get_img(src: 'ba-' . $i . '.jpeg', alt: 'before & after'); ?>
-                    </div>
+                <div class="swiper-slide">
+                    <img src="<?= '/assets/ba-' . $i . '.jpg' ?>" alt="before & after">
+                </div>
                 <?php endfor ?>
             </div>
         </div>
