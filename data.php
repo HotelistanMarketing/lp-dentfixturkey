@@ -15,11 +15,13 @@ define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
 define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 
-define('GTM_ID', str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' : 'GTM-NK7FM5HK');
+define('GTM_ID', value: str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' : 'GTM-NK7FM5HK');
 const HOTJAR_ID = '3703079';
 
 const LEAD_INTEREST = Lead\Interest\Dental;
 const LEAD_PROCEDURE = Lead\Procedure\Implant;
-const LEAD_DR = 'Dentfix Turkey';
+define('LEAD_DR', value: str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'Dentfix Dubai' : 'Dentfix Turkey');
+
+
 
 const FORM_RETURN_URL = 'https://www.dentfixturkey.com/thank-you/';

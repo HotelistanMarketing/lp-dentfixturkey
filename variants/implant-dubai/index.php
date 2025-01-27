@@ -28,7 +28,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/data.php';
         <?php include get_template('influencers.php') ?>
         <?php include get_template('faq.php') ?>
     </main>
-    <?php include get_template('footer.php') ?>
+    <?php include get_template('footer1.php') ?>
     <?php include get_template('whatsapp-fab.php', common: true) ?>
     <?php include get_template('body-end.php') ?>
 </body>
