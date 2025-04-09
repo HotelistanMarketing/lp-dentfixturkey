@@ -15,7 +15,13 @@ define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
 define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 
-define('GTM_ID', value: str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' : 'GTM-N7LDD78Z');
+define(
+    'GTM_ID',
+    str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' :
+    (str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'GTM-NK7FM5HK' :
+    (str_contains($_SERVER['HTTP_HOST'], 'healthclinicturkeyx') ? 'GTM-N7LDD78Z' : ''))
+);
+
 const HOTJAR_ID = '3703079';
 
 const LEAD_INTEREST = Lead\Interest\Dental;
