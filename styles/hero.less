@@ -1,106 +1,154 @@
-@import "variables";
+@import 'variables';
+
+.hero-grid img.animate {
+   animation: opacityAnimation 1.5s linear;
+}
+
+@keyframes opacityAnimation {
+   0% {
+      opacity: 1;
+   }
+   50% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
 
 #hero {
-  position: relative;
-  height: 857px;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
+   > .container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      padding-right: 0;
+   }
 
-  > .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+   .hero-grid {
+      display: grid;
+      row-gap: 4px;
+      column-gap: 4px;
+      padding-left: 4px;
+      padding-right: 4px;
+      grid-template-columns: repeat(3, 1fr);
+
+      :last-child {
+         display: none;
+      }
+   }
+
+   .ico-arrow {
+      margin: 10px 0;
+
+      img {
+         margin: 20px;
+         rotate: 180deg;
+      }
+   }
+}
+
+@media screen and (max-width:768px) {
+   #hero .hero-grid {
+      grid-template-columns: repeat(4, 1fr);
+
+      :last-child {
+         display: unset;
+      }
+   }
 }
 
 .hero-content {
-  padding: 47px 0 26px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   padding: 47px @page-padding 26px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.7);
+   text-align: center;
 
-  h1 {
-    font-size: 34px;
-    line-height: 40px;
-    font-weight: 700;
-    margin-bottom: 12px;
-  }
+   h1,
+   .hero-subtitle {
+      color: #fff;
+   }
 
-  .hero-subtitle {
-    color: @tertiary-color;
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 36px;
-  }
+   h1 {
+      font-size: 34px;
+      line-height: 40px;
+      font-weight: 800;
+      margin-bottom: 12px;
+   }
+
+   .hero-subtitle {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 36px;
+   }
 }
 
 #org-section {
-  position: absolute;
-  bottom: 20px;
-  left: @page-padding;
-  right: @page-padding;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 12px;
-  align-items: center;
-  justify-content: space-around;
+   padding: 8px 0;
+  //  background-color: @org-mobile-bg;
+
+   > .container {
+      display: flex;
+      flex-flow: row wrap !important;
+      row-gap: 12px;
+      align-items: center;
+      justify-content: space-around;
+   }
 }
 
-// MEDIA QUERIES
+@media screen and (min-width:768px)  {
+   #hero > .container {
+      height: 100%;
+      flex-direction: row;
+   }
 
-.mq-mobile-critical() {
-  // TODO check if hero-mobile 2x version looks good
+   .hero-content {
+      align-self: center;
+      justify-content: center;
+      //background-attachment: fixed !important;
+      // background: linear-gradient(90deg, red 0%, #000000CC 40%, #000000CC 60%, #0000007F 100%);
 
-  #hero {
-    background: url("/assets/hero-mobile.webp");
-  }
-}
+      h1 {
+         font-size: 39px;
+         line-height: 49px;
+      }
 
-.mq-tablet-critical() {
-  #hero {
-    background: url("/assets/hero.webp");
+      .hero-subtitle {
+         font-size: 22px;
+         line-height: 30px;
+      }
 
-    @media @media-retina {
-      background: url("/assets/hero@2x.webp");
-    }
-  }
-}
+      .button {
+         width: 100%;
+         min-width: fit-content;
+      }
+   }
 
-.mq-desktop-critical() {
-  #hero > .container {
-    align-items: end;
-    justify-self: center;
-  }
+   #hero .hero-grid {
+      grid-template-columns: repeat(5, 1fr);
+      column-gap: 20px;
 
-  .hero-content {
-    margin-top: 100px;
-    align-items: end;
-    justify-content: end;
-    text-align: end;
+      :last-child {
+         display: none;
+      }
+   }
 
-    h1 {
-      font-size: 39px;
-      line-height: 49px;
-    }
+   #org-section {
+      background-color: initial;
 
-    .hero-subtitle {
-      font-size: 22px;
-      line-height: 30px;
-    }
-
-    .button {
-      min-width: max-content;
-    }
-  }
-
-  #org-section {
-    right: unset;
-    left: unset;
-    bottom: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 25px;
-    row-gap: 20px;
-  }
+      > .container {
+         column-gap: 25px;
+         row-gap: 20px;
+         padding: 8px 0;
+      }
+   }
 }
