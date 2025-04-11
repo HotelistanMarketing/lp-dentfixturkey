@@ -1,6 +1,10 @@
 <footer id="footer">
     <div class="container">
-        <img class="logo" src="/assets/dentfix-logo-1.svg" width="206" height="52" alt="logo" loading="lazy" />
+        <?php if ($_SERVER['HTTP_HOST'] === 'dentaltreatmentsturkey'): ?>
+        <img src="/assets/logo-2.svg" width="153" height="39" alt="logo" />
+        <?php else: ?>
+        <img src="/assets/dentfix-logo-1.svg" width="153" height="39" alt="logo" />
+        <?php endif; ?>
         <div class="footer-info">
             <div>
                 <img class="icon" src="/assets/ico-location.svg" width="20" height="20" alt="address" loading="lazy">
