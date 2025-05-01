@@ -28,7 +28,7 @@ const TR = array(
     "hero_org_title" => "Our Reliable Brands",
 
     // FORM
-    "form_title" => "Reshape Your Beautiful Smile with Dentfix",
+    "form_title" => "Don't Miss Out on 20% Spring Discounts!",
     "form_description" => "Complete the form and allow our experts to promptly address any questions you may have.",
     "form_button" => "Hurry Up! Get A Free Quote",
 
