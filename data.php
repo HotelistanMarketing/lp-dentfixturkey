@@ -19,7 +19,7 @@ define(
     'GTM_ID',
     str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' :
     (str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'GTM-NK7FM5HK' :
-    (str_contains($_SERVER['HTTP_HOST'], 'healthclinicturkeyx') ? 'GTM-N7LDD78Z' : 'GTM-KHZK2JXH'))
+    (str_contains($_SERVER['HTTP_HOST'], 'healthclinicturkeyx') ? 'GTM-N7LDD78Z' : 'GTM-M9MMQW5J'))
 );
 
 const HOTJAR_ID = '3703079';
