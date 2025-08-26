@@ -9,7 +9,7 @@ const INSTAGRAM_LINK = 'https://www.instagram.com/dentfix.turkey/';
 const TIKTOK_LINK = 'https://www.tiktok.com/@dentfixturkey';
 
 if (!defined('READABLE_PHONE_NUMBER'))
-    define('READABLE_PHONE_NUMBER', value: '+90 549 612 32 95');
+    define('READABLE_PHONE_NUMBER', value: '+905496123295');
 
 define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
