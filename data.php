@@ -11,6 +11,7 @@ const TIKTOK_LINK = 'https://www.tiktok.com/@dentfixturkey';
 if (!defined('READABLE_PHONE_NUMBER'))
     define('READABLE_PHONE_NUMBER', value: '+905518622525');
 
+
 define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
 define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
