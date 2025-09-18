@@ -6,7 +6,7 @@ function get_wp_link(string $number, string $keyword = ''): string
     return sprintf(
         'https://wa.me/%s?text=%s',
         $number,
-        rawurlencode($text)
+        $text
     );
 }
 
