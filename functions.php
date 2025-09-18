@@ -3,7 +3,11 @@
 function get_wp_link(string $number, string $keyword = ''): string
 {
     $text = urlencode(sprintf(TRC["wp_message"], $keyword ?: TR['whatsapp_main_keyword']));
-    return sprintf('https://wa.me/send?phone=%s&text=%s', $number, $text);
+    return sprintf(
+        'https://wa.me/%s?text=%s',
+        $number,
+        urlencode($text)
+    );
 }
 
 function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $retina = true, bool $variant = false): void
