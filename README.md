@@ -1,6 +1,6 @@
 # Tools & Configuration
 
-Create file watchers to serve optimized production codes.
+Create file watchers to serve optimized production codes...
 We currently deploy both dev & production files because of
 service limitations.
 
