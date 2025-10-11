@@ -1,112 +1,113 @@
 <?php
 
 const TR = array(
-    "page_title" => "Turkiet tandklinik i Istanbul | DentfixTurkiet",
-    "page_keywords" => "tandvårdsklinik, turkiet, fasad, kronor, hollywood smile, restaurerande tandvård",
-    "page_description" => "Vårt expertteam av tandläkare erbjuder ett brett utbud av tjänster för ett vackert och hälsosamt leende. Schemalägg ditt möte idag och upplev exceptionell tandvård på Turkey Dental Teeth Clinic - DentfixTurkey.",
+    "page_title" => "Зъбни импланти в Турция | DentfixTurkey",
+    "page_keywords" => "зъбни импланти, Турция, дентални импланти, зъболечение, стоматология",
+    "page_description" => "Нашият експертен екип от зъболекари предлага широка гама от услуги за красива и здрава усмивка. Запазете час днес и се насладете на изключителна грижа за зъбите в Dentfix Turkey.",
 
-    "whatsapp_main_keyword" => "tandimplantat",
+    "whatsapp_main_keyword" => "зъбни импланти",
 
     // HEADER
     "nav_menu" => array(
-        "why" => "Varför välja",
-        "before-after" => "Före & efter",
-        "influencers" => "Influencers",
-        "services" => "Tjänster",
-        "team" => "Vårt Team",
-        "footer" => "Kontakt"
+        "why" => "Защо да ни изберете",
+        "before-after" => "Преди и след",
+        "influencers" => "Влогъри",
+        "services" => "Услуги",
+        "team" => "Нашият екип",
+        "footer" => "Свържете се с нас"
     ),
 
     // BANNER
-    "banner_header" => "<span>Höst kallar DIG!..</span> Specialerbjudande. Spara 25% och mer.",
+    "banner_header" => "<span>Есента ви вика!..</span> Специална оферта. Спестете 25% и повече.",
 
     // HERO
-    "hero_title" => "Tandklinik <span>i Turkiet</span>",
-    "hero_title_mobile" => "Tandkliniken <br><span>i Turkiet</span>",
-    "hero_subtitle" => "Förbättra ditt leende<br>med Dentfix Turkiets prisvärda tjänster",
-    "hero_button" => "Få den bästa tandvårdslösningen",
-    "hero_org_title" => "Våra tillförlitliga varumärken",
+    "hero_title" => "Зъбни импланти <span>в Турция</span>",
+    "hero_title_mobile" => "Зъбни импланти <br><span>в Турция</span>",
+    "hero_subtitle" => "Подобрете вашата усмивка<br>с достъпните услуги на Dentfix Clinic",
+    "hero_button" => "Получете най-доброто решение за зъбите",
+    "hero_org_title" => "Нашите доверени марки",
 
     // FORM
-    "form_title" => "Omforma ditt vackra leende med Dentfix",
-    "form_description" => "Fyll i formuläret och låt våra experter att snabbt ta itu med alla frågor du kan ha.",
-    "form_button" => "Skynda dig! Få en kostnadsfri offert",
+    "form_title" => "Преобразете вашата красива усмивка с Dentfix",
+    "form_description" => "Попълнете формуляра и нашите експерти ще ви помогнат да отговорят на всички ваши въпроси бързо.",
+    "form_button" => "Бързайте! Получете безплатна оферта",
 
     // WHY CHOOSE
-    "why_title" => "Varför välja oss?",
+    "why_title" => "Защо да ни изберете?",
     "why" => array(
-        "<strong>Topp-Modern- Teknik</strong>",
-        "<strong>Allt i ett</strong> tjänster",
-        "<strong>+15780</strong> Glada patienter",
-        "<strong>+17 år</strong> av erfarenhet",
-        "<strong>Nyskapande teknik</strong>",
-        "<strong>Prisvärda</strong> priser"
+        "<strong>Най-новите технологии</strong>",
+        "<strong>Всички услуги</strong> на едно място",
+        "<strong>+15780</strong> щастливи пациенти",
+        "<strong>+17 години</strong> опит",
+        "<strong>Най-новите технологии</strong>",
+        "<strong>Достъпни цени</strong>"
     ),
     "why_descriptions" => array(
-        "Upplev avancerad sjukvård med den senaste tekniken.",
-        "Bekväm, omfattande hälso- och sjukvårdstjänster på ett ställe.",
-        "Följ med tusentals nöjda patienter som litar på oss.",
-        "Dra nytta av 17+ års skicklig kompetens.",
-        "Ledande verktyg för exakt diagnos och behandling.",
-        "Kvalitetsvård till budgetvänliga priser."
+        "Насладете се на авангардна медицинска грижа с най-новите технологии.",
+        "Цялостни и удобни здравни услуги на едно място.",
+        "Присъединете се към хиляди доволни пациенти, които ни се доверяват.",
+        "Възползвайте се от повече от 17 години професионален опит.",
+        "Съвременни инструменти за точна диагностика и лечение.",
+        "Високо качество грижа на достъпни цени."
     ),
 
     // SERVICES
-    "services_title" => "Kolla in våra starkt rekommenderade tandvårdslösningar",
-    "service_card_button" => "Få mer information",
+    "services_title" => "Открийте нашите силно препоръчвани дентални медицински решения",
+    "service_card_button" => "Получете повече информация",
     "services_details" => array(
         [
-            "Tandimplantat",
-            "Våra Tandimplantatpaket:",
-            "Alla På Fyra",
-            "Alla På Sex",
-            "Alla På Åtta",
-            "Tre På Sex",
-            "Full mun-tandimplantat"
+            "Зъбни импланти",
+            "Нашият пакет зъбни импланти:",
+            "All On Four",
+            "All On Six", 
+            "All On Eight",
+            "Three On Six",
+            "Пълни зъбни импланти"
         ],
         [
-            "Tandfasader",
-            "Våra Tandfasader paket:",
-            "Komposit Fasad",
-            "Porslin Fasad",
-            "E-max Fasad",
-            "Laminat Fasad",
-            "Förberedd Fasad",
-            "Fullständig uppsättning av fasad",
-            "Full mun-tandimplantat"
+            "Зъбни фасети",
+            "Нашият пакет зъбни фасети:",
+            "Композитни фасети",
+            "Порцеланови фасети", 
+            "E-max фасети",
+            "Ламинирани фасети",
+            "Фасети без препариране",
+            "Пълен комплект фасети",
+            "Пълни зъбни импланти"
         ],
         [
-            "Tandkronor",
-            "Våra Tandfasader paket:",
-            "Celtra Kronor",
-            "E-max kronor",
-            "Zirkonium Kronor",
-            "Porslin Kronor",
-            "Fullständig uppsättning kronor"
+            "Зъбни корони",
+            "Нашият пакет зъбни корони:",
+            "Celtra корони",
+            "E-max корони",
+            "Циркониеви корони", 
+            "Порцеланови корони",
+            "Пълен комплект корони"
         ],
         [
-            "Hollywood leende",
-            "Upplev ett transformativt leende med våra avancerade tekniker och expertis.<br>Njut av en smidig och bekväm Hollywood Smile Turkey Recovery process, vilket garanterar ditt välbefinnande helt."
+            "Холивудска усмивка",
+            "Изпитайте невероятна трансформация на вашата усмивка с нашите авангардни техники и експертиза.<br>Насладете се на плавен и удобен процес на възстановяване за Холивудска усмивка в Турция, като ви гарантираме комфорт през цялото време."
         ],
         [
-            "Restaurerande tandvård",
-            "Oavsett om du behöver tandimplantat, kronor, broar eller andra reparativa förfaranden, erbjuder vi kompletta lösningar som ger resultat som verkar naturliga."
+            "Възстановително зъболечение",
+            "Независимо дали се нуждаете от импланти, корони, мостове или други възстановителни процедури, ние предлагаме цялостни решения, които постигат естествено изглеждащи резултати."
         ],
     ),
 
     // BEFORE AND AFTER
-    "ba_title" => "Före & efter",
-    "ba_button" => "Få den bästa tandbehandlingen",
+    "ba_title" => "Преди и след",
+    "ba_button" => "Получете най-доброто лечение на зъбите",
 
     // TEAM
-    "team_title" => "Vårt Team",
+    "team_title" => "Нашият екип",
+    "team_description" => "Запознайте се с нашия екип от опитни и умели професионалисти, посветени на предоставянето на най-добрата грижа за зъбите за вас.",
     "team_details" => array(
         [
             "Doc. Dr. Ayşe ATAY",
             "/assets/dt-ayse.webp"
         ],
         [
-            "Spec. Dr. Suhan İNAL",
+            "Spec. Dr. Suhan İNAL", 
             "/assets/dt-suhan.webp"
         ],
         [
@@ -128,77 +129,77 @@ const TR = array(
     ),
 
     // CALL TO ACTION
-    "cta_title" => "Gratis onlinekonsultation",
-    "cta_subtitle" => "Virtuell konsultation:",
-    "cta_description" => "Kontakta oss innan din operation för ett personligt möte före operationen",
-    "cta_button" => "Kontakta oss",
+    "cta_title" => "Безплатна онлайн консултация",
+    "cta_subtitle" => "Виртуална консултация:",
+    "cta_description" => "Свържете се с нас преди операцията за лична подготвителна среща.",
+    "cta_button" => "Свържете се с нас",
 
     // CLINIC
-    "hospital_title" => "Upptäck vår klinik med bilder",
+    "hospital_title" => "Открийте нашата клиника чрез снимки",
 
     // PACKAGE
-    "package_title" => "Dentfix Service Detalj-Innehåll",
-    "package_button" => "Få prisinformation",
+    "package_title" => "Детайли за услугата Dentfix",
+    "package_button" => "Получете информация за цените",
     "package_details" => array(
         [
-            "Allt i ett paket",
-            "Upptäck Dentfixs hela utbud av tandvårdstjänster, inklusive restaureringar, procedurer och lösningar utformade för att passa alla dina tandvårdsbehov."
+            "Пълни пакети",
+            "Открийте цялостната гама от дентални медицински услуги на Dentfix, включващи възстановления, процедури и решения, проектирани да отговорят на всичките ви дентални нужди."
         ],
         [
-            "Schemalägg en konsultation",
-            "Ta kontakt med oss idag för att utforska de behandlingsalternativ som är skräddarsydda för att hjälpa dig att uppnå ett levande och fantastiskt leende som utstrålar både hälsa och skönhet."
+            "Запазете консултация",
+            "Свържете се с нас днес, за да изследвате опции за лечение, проектирани да ви помогнат да постигнете жизнена и лъчезарна усмивка, която излъчва здраве и красота."
         ],
         [
-            "Flygplatstransfer",
-            "Anländer till Istanbul? Lämna logistiken till oss. Vårt dedikerade team kommer att ta hand om din hämtning på flygplatsen och lokala transportbehov, och erbjuder en flotta av lyxiga minivans för din komfort och bekvämlighet."
+            "Трансфер от летището",
+            "Пристигнахте в Турция? Нека ние се погрижим за логистиката. Нашият посветен екип ще се заеме с посрещането от летището и местните ви транспортни нужди, предоставяйки флота от луксозни миниванове за вашия комфорт и благополучие."
         ],
         [
-            "Boende",
-            "Upplev exklusivitet på våra centralt belägna hotell i Istanbul och våra förstklassiga samarbetspartners. Upptäck enastående möjligheter för en minnesvärd vistelse."
+            "Настаняване",
+            "Изпитайте изключителността в нашите централно разположени хотели в Турция и първокласни партньорски заведения. Открийте безпрецедентни възможности за незабравима престой."
         ],
         [
-            "Sevärdheter tur",
-            "Upptäck den fängslande skönheten i Turkiet, en verkligt anmärkningsvärd destination. Maximera din upplevelse med våra guidade turer och översättningstjänster, fördjupa dig i oförglömliga stunder."
+            "Туристическа обиколка",
+            "Открийте зашеметяващата красота на Турция, наистина удивителна дестинация. Извлечете максимума от вашето изживяване с нашите водени обиколки и преводачески услуги, потопявайки се в незабравими моменти."
         ],
         [
-            "Vård efter operation",
-            "Att bevara de långsiktiga resultaten av din procedur är vår prioritet. Dra nytta av vår postoperativa vård och support, så att du kan etablera varaktiga hälsosamma vanor."
+            "Следоперативна грижа",
+            "Поддържането на вашите дългосрочни резултати след операцията е наш приоритет. Възползвайте се от нашата следоперативна грижа и подкрепа, позволявайки ви да приемете здравословни навици, които ще издържат."
         ],
     ),
 
     // INFLUENCERS
-    "influencers_title" => "Youtube Influencer-videor",
+    "influencers_title" => "YouTube влогър видеа",
 
     // FAQ
-    "faq_title" => "Vanliga Frågor (FAQ)",
+    "faq_title" => "Често задавани въпроси",
     "faq" => array(
         [
-            "Är implantatets märke viktigt? Har implantatet kvalitet?",
-            "För våra tandingrepp använder Dentfix Clinic endast premiumprodukter som Ivoclar Vivadent, Straumann och Nobel Biocare Implant. Dessa produkter är välkända för sin excellens, vilket säkerställer långvariga och fördelaktiga resultat för våra patienter. Vårt engagemang för att leverera den finaste kalibern av tandvård återspeglas i vårt engagemang för dessa toppmärken. Du kan konsultera European Journal of Dentistry, en ansedd källa för dental forskning, för ytterligare information."
+            "Важна ли е марката на зъбния имплант? Качествени ли са имплантите?",
+            "В клиника Dentfix използваме само отлични продукти като Ivoclar Vivadent, Straumann и Nobel Biocare Implant в нашите дентални процедури. Тези продукти са известни с високото си качество, гарантирайки дългосрочни и благоприятни резултати за нашите пациенти. Нашето посвещение на предоставянето на най-високо ниво дентална грижа се проявява в избора ни на тези водещи марки. Можете да се обърнете към Европейското списание по дентална медицина, което е надежден източник за дентални изследвания, за повече информация."
         ],
         [
-            "Hur länge håller ett Hollywood-leende?",
-            "Varaktigheten av ett Hollywood-leende bestäms av hållbarheten hos de tandimplantat, kronor eller fasader som används. Porslinsfabriker kan hålla i över 20 år, medan kompositfasader håller i cirka 10 år."
+            "Колко дълго трае Холивудската усмивка?",
+            "Продължителността на Холивудската усмивка зависи от издръжливостта на използваните зъбни импланти, корони или фасети. Порцелановите фасети могат да издържат повече от 20 години, докато композитните фасети трайно около 10 години."
         ],
         [
-            "Hur länge håller tandfasader?",
-            "Tandfasader kan hålla länge, särskilt om de sitter väl vid emaljen. Medan kompositfasader normalt har en livslängd på 7–10 år, har starka porslinsfasader förmågan att överleva i 20 år eller ännu längre."
+            "Колко дълго трайно зъбните фасети?",
+            "Зъбните фасети могат да трайно дълго време, особено ако са добре залепени към емайла. Докато композитните фасети обикновено трайно от 7 до 10 години, силните порцеланови фасети могат да продължат 20 години или повече."
         ],
         [
-            "Vad gör en tandkrona?",
-            "En tandkrona är en keps som liknar en tand som kan användas för att återställa en tand som har blivit sönderfallen, skadad, svagare eller sliten. Dessutom kan tandläkare täcka rotbehandlade tänder och tandimplantat med kronor. Kronor kan hålla var som helst mellan fem och femton år."
+            "Каква е функцията на зъбната корона?",
+            "Зъбната корона е покривка, подобна на зъб, която се използва за възстановяване на разрушени, повредени, слаби или износени зъби. Освен това зъболекарите могат да покрият зъби, лекувани с канални, и зъбни импланти с корона. Короните могат да трайно от пет до петнадесет години."
         ],
         [
-            "Är implantat mycket smärtsamt?",
-            "Under den dentala implantatproceduren kommer lokalbedövning att användas för att bedöva nerverna runt implantatområdet. Detta kommer att hindra dig från att känna någon smärta. Du kan uppleva ett visst tryck, men det är inte obehagligt."
+            "Много ли болезнени са зъбните импланти?",
+            "По време на процедурата за зъбни импланти ще се използва местна анестезия за упояване на нервите около областта на импланта. Това ще ви предпази от усещането за болка. Може да почувствате малко натиск, но няма да бъде неприятно."
         ],
         [
-            "Är det smärtsamt att få en krona?",
-            "Den vanliga tandvård för att få en krona kan göra vissa människor nervösa eftersom de är rädda för obehag. Men eftersom din tandläkare kommer att bedöva munnen innan du börjar någon behandling, bör förfarandet inte vara obehagligt. Detta gäller för varje steg i förfarandet, från den första utnämningen till den sista passningen."
+            "Болезнено ли е поставянето на корона?",
+            "Някои хора може да се тревожат от редовното зъболечение за поставяне на корона, защото се страхуват от болка. Въпреки това, тъй като зъболекарят ще упои устата ви преди да започне което и да е лечение, процедурата не трябва да бъде болезнена. Това важи за всяка стъпка от процедурата, от първия час до окончателното поставяне."
         ],
     ),
 
     // FOOTER
-    "footer_social_title" => "Våra sociala medier",
-    "footer_copyright" => "Alla rättigheter reserverade ©️ %s - Dentfix",
+    "footer_social_title" => "Нашите социални медии",
+    "footer_copyright" => "Всички права запазени © %s - Dentfix",
 );
