@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Remove pages/ from URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ /pages/$1/ [L]
+
+# Redirect old pages/ URLs to clean URLs
+RewriteCond %{THE_REQUEST} \s/pages/([^/\s?]+)
+RewriteRule ^ /%1? [R=301,L]
