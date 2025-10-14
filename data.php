@@ -18,16 +18,22 @@ define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 
 define(
     'GTM_ID',
-    str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' :
+    str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixclinics.com') ? 'GTM-5R9XZLX2' :
+    (str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixdentalclinic.com') ? 'GTM-K73HN7FZ' :
+    (str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' :
     (str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'GTM-NK7FM5HK' :
-    (str_contains($_SERVER['HTTP_HOST'], 'healthclinicturkeyx') ? 'GTM-N7LDD78Z' : 'GTM-M9MMQW5J'))
+    (str_contains($_SERVER['HTTP_HOST'], 'healthclinicturkeyx') ? 'GTM-N7LDD78Z' : 'GTM-M9MMQW5J'))))
 );
 
 const HOTJAR_ID = '3703079';
 
 const LEAD_INTEREST = Lead\Interest\Dental;
 const LEAD_PROCEDURE = Lead\Procedure\Implant;
-define('LEAD_DR', value: str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'Dentfix Dubai' : 'Dentfix Turkey');
+define('LEAD_DR', value: 
+    str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixclinics.com') ? 'Dentfix Clinics' :
+    (str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixdentalclinic.com') ? 'Dentfix Dental Clinic' :
+    (str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'Dentfix Dubai' : 'Dentfix Turkey'))
+);
 
 
 
