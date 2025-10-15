@@ -1,7 +1,11 @@
 <?php
 
-const VARIANT = 'implant-ru-google';
+const VARIANT = 'implant';
 const LANG_CODE = 'ru';
-const LEAD_LANGUAGE = Lead\Language\Russian;
+const LEAD_LANGUAGE = "Lead\Language\Russian";
 const LEAD_SOURCE = 'Google/Dentfix/Ru/Implant';
-// Russian sayfası için Lead Source Detail yok (Google Ads)
+const LEAD_SOURCE_DETAIL = 'Google Ads';  // Google Ads tracking
+
+
+
+
