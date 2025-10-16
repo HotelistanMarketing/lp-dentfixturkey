@@ -6,6 +6,7 @@ const order = require('gulp-order');
 const mainJSFiles = [
     'commons/scripts/intl-tel-input.min.js',
     'commons/scripts/wp-fab.js',
+    'commons/scripts/telegram-fab.js',
     'commons/scripts/wp-link-trigger.js',
     'commons/scripts/fix-transition-glitch.js',
     'commons/scripts/form-country-input.js',

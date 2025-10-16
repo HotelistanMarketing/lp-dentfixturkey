@@ -16,6 +16,13 @@ define('PHONE_NUMBER', trim_phone_number(READABLE_PHONE_NUMBER));
 const WHATSAPP_NUMBER = PHONE_NUMBER;
 define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 
+// Telegram constants
+const TELEGRAM_USERNAME = 'dentfixturkey';
+define('TELEGRAM_LINK', 
+    defined('TELEGRAM_LINK_RU') ? TELEGRAM_LINK_RU : 
+    get_telegram_link(defined('TELEGRAM_USERNAME_RU') ? TELEGRAM_USERNAME_RU : TELEGRAM_USERNAME)
+);
+
 define(
     'GTM_ID',
     str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixclinics.com') ? 'GTM-5R9XZLX2' :

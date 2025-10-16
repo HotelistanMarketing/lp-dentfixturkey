@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gulp-cli": "^3.1.0",
     "less": ">=4.2.0",
     "less-plugin-clean-css": ">=1.5.1"
   },

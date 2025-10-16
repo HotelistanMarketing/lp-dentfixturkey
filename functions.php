@@ -10,6 +10,27 @@ function get_wp_link(string $number, string $keyword = ''): string
     );
 }
 
+function get_telegram_link(string $phone_or_username, string $keyword = ''): string
+{
+    $text = urlencode(sprintf(TRC["wp_message"], $keyword ?: TR['whatsapp_main_keyword']));
+    
+    // Eğer telefon numarası ise (sadece rakam içeriyorsa)
+    if (preg_match('/^\d+$/', $phone_or_username)) {
+        // Telegram için telefon numarası linki (+ işareti ile)
+        return sprintf(
+            'https://t.me/+%s',
+            $phone_or_username
+        );
+    }
+    
+    // Username ise
+    return sprintf(
+        'https://t.me/%s?text=%s',
+        $phone_or_username,
+        $text
+    );
+}
+
 function get_img(string $src, string $alt = '', string $loading = 'lazy', bool $retina = true, bool $variant = false): void
 {
     $path = ($variant ? '/assets/' . VARIANT . '/' : '/assets/') . $src;

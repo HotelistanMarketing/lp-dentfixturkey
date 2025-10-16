@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/commons/styles/swiper-bundle.min.css"/>
     <link rel="icon" type="image/x-icon" href="/assets/ico-favicon.svg">
     <style>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/variants/implant/critic.css') ?>
+        <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/variants/implant/critic.css'); ?>
     </style>
 
         <!-- AdRoll Script -->

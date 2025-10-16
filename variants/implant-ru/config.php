@@ -10,3 +10,6 @@ const LEAD_SOURCE_DETAIL_API = 'Single_Line_5';
 
 // Rusça sayfa için özel WhatsApp numarası
 define('READABLE_PHONE_NUMBER', '905494593841');
+
+// Telegram için direkt link
+const TELEGRAM_LINK_RU = 'https://t.me/+905494593841';

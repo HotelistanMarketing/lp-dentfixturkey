@@ -14,6 +14,7 @@
 @import "../../styles/footer";
 @import "../../commons/styles/wp-form";
 @import "../../commons/styles/whatsapp-fab";
+@import "../../commons/styles/telegram-fab";
 
 // MEDIA QUERY STYLES
 
@@ -25,6 +26,10 @@
 
 #whatsapp-fab {
   animation: buttonAnimation 2s linear infinite;
+}
+
+#telegram-fab {
+  animation: buttonAnimation 2s linear infinite 0.5s; // 0.5s delay için staggered effect
 }
 
 @keyframes buttonAnimation {
