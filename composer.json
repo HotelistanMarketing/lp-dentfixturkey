@@ -27,9 +27,5 @@
           }
      },
      "scripts": {
-          "post-install-cmd": [
-               "chmod +x ./commons/devtools/run-lessc.sh",
-               "./commons/devtools/run-lessc.sh"
-          ]
      }
 }
