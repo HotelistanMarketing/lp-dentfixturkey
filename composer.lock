@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59901510bc0465b685e4028452d43991",
+    "content-hash": "6a3d1199800ff0a8c5d6bb7b936a2419",
     "packages": [
         {
             "name": "composer/installers",
@@ -157,7 +157,7 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://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@github.com/HotelistanMarketing/commons",
+                "url": "https://github.com/HotelistanMarketing/commons",
                 "reference": "28b01e79e3609de125f4e7847e7a52d44f97f235"
             },
             "require": {
@@ -243,6 +243,6 @@
     "platform": {
         "php": "~8.2"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
