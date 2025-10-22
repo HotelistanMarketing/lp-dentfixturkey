@@ -14,7 +14,7 @@
                 <ul class="card-list">
                     <?php for ($li = 2; $li < $arr_size; $li++): ?>
                     <li>
-                        <a href="<?= get_wp_link(WHATSAPP_NUMBER, $details_arr[$li]) ?>">
+                        <a class="wp-link" href="<?= get_wp_link(WHATSAPP_NUMBER, $details_arr[$li]) ?>">
                             <?= $details_arr[$li] ?>
                         </a>
                     </li>
@@ -23,7 +23,7 @@
                 <?php else: ?>
                 <p class="card-text"><?= $details_arr[1] ?></p>
                 <?php endif ?>
-                <a class="button" href="<?= get_wp_link(WHATSAPP_NUMBER, $details_arr[0]) ?>">
+                <a class="button wp-link" href="<?= get_wp_link(WHATSAPP_NUMBER, $details_arr[0]) ?>">
                     <?= TR['service_card_button'] ?>
                 </a>
             </div>

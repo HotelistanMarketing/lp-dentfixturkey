@@ -92,7 +92,7 @@ function get_wp_button(string $text, string $href = null, string $class = ''): v
     // Here we removed target="_blank" to work around a bug,
     // which was preventing WhatsApp from opening via Chrome on iOS.
     ?>
-    <a class="button <?= $class ?>" href="<?= $href ?? WHATSAPP_LINK ?>">
+    <a class="button wp-link <?= $class ?>" href="<?= $href ?? WHATSAPP_LINK ?>">
         <?= $text ?>
     </a>
     <?php
