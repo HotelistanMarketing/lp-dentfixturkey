@@ -18,7 +18,7 @@ define('WHATSAPP_LINK', get_wp_link(WHATSAPP_NUMBER));
 
 define(
     'GTM_ID',
-    str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixclinics.com') ? 'GTM-5R9XZLX2' :
+    str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixclinics.com') ? 'GTM-NNQ6XMKL' :
     (str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixdentalclinic.com') ? 'GTM-K73HN7FZ' :
     (str_contains($_SERVER['HTTP_HOST'], 'dentfixinternational.com') ? 'GTM-M9MMQW5J' :
     (str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'GTM-NK7FM5HK' :
