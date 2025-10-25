@@ -2,7 +2,7 @@
 
 const VARIANT = 'implant';
 const LANG_CODE = 'ru';
-const LEAD_LANGUAGE = "Lead\Language\Russian";
+const LEAD_LANGUAGE = "Russian";
 const LEAD_SOURCE = 'Yandex Ads';
 
 // Rusça sayfa için özel WhatsApp numarası
