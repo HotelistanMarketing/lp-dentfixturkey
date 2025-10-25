@@ -31,7 +31,7 @@ const LEAD_INTEREST = Lead\Interest\Dental;
 const LEAD_PROCEDURE = Lead\Procedure\Implant;
 define('LEAD_DR', value: 
     str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixclinics.com') ? 'Dentfix Clinics' :
-    (str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixdentalclinic.com') ? 'Dentfix Dental Clinic' :
+    (str_contains($_SERVER['HTTP_HOST'], 'dental.dentfixdentalclinic.com') ? 'Dentfix Turkey' :
     (str_contains($_SERVER['HTTP_HOST'], 'dentfixdubai.com') ? 'Dentfix Dubai' : 'Dentfix Turkey'))
 );
 
